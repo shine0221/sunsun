@@ -18,8 +18,8 @@
 		    margin: 0 auto 0 auto;
 		    text-align: right;
             left: -10px;
-            position: fixed;
             border-bottom-style: inset;
+            background-color: white;
         }
         .hihi p{
             display: inline;
@@ -32,25 +32,104 @@
         .hihi p:hover{
             border-bottom:3px solid #ff8c00;
 	    }
-        .content {
-            min-height: calc(100% - 100px);
+        .content{
+            min-height: 100%;
+            margin-bottom: -100px;
+        }
+        .home{
+            padding-bottom: 100px;
+        }
+        .wait, .support, .join, .contact, .question{
+            padding-bottom: 100px;
+            display: none;
         }
         .footer {
             height: 100px;
             background-color: black;
         }
     </style>
+    <script src="../_js/jquery.min.js"></script>
+    <script src="../_js/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".1").click(function(){
+                $(".home").css('display', 'block');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".question").css('display', 'none');
+            });
+            $(".2").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'block');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".question").css('display', 'none');
+            });
+            $(".3").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'block');
+                $(".join").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".question").css('display', 'none');
+            });
+            $(".4").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'block');
+                $(".contact").css('display', 'none');
+                $(".question").css('display', 'none');
+            });
+            $(".5").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".contact").css('display', 'block');
+                $(".question").css('display', 'none');
+            });
+        });
+    </script>
 </head>
 <body>
-    <div class="hihi">
-            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
-            <p>首頁</p>
-            <p>等家的喵</p>
-            <p>支持浪喵</p>
-            <p>加入我們</p>
-            <p style="background-color: #ff8c00; color: white; border-radius:5px;" class="contact">聯絡我們</p>
-    </div>
     <div class="content">
+        <div class="hihi">
+                <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+                <p class="1">首頁</p>
+                <p class="2">等家的喵</p>
+                <p class="3">支持浪喵</p>
+                <p class="4">加入我們</p>
+                <p class="5">常見問題</p>
+                <p style="background-color: #ff8c00; color: white; border-radius:5px;">聯絡我們</p>
+        </div>
+
+        <div class="home">
+            <p>1</p>
+        </div>
+
+        <div class="wait">
+            <p>2</p>
+        </div>
+
+        <div class="support">
+            <p>3</p>
+        </div>
+
+        <div class="join">
+            <p>4</p>
+        </div>
+
+        <div class="contact">
+            <p>5</p>
+        </div>
+
+        <div class="question">
+            <p>6</p>
+        </div>
     </div>
     <footer class="footer"></footer>
 </body>
