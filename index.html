@@ -24,14 +24,26 @@
         .hihi p{
             display: inline;
 		    margin: 30px;
-		    padding: 10px;
-		    color: black;	
+		    padding: 10px;	
 		    cursor: pointer;
             border-bottom:3px solid transparent;
+        }
+        .home_click, .wait_click, .support_click, .join_click, .contact_click{
+            color: black;
         }
         .hihi p:hover{
             border-bottom:3px solid #ff8c00;
 	    }
+        .question_click{
+            background-color: #ff8c00;
+            color: white;
+            border-radius:5px;
+        }
+        .question_click:hover{
+            background-color: black;
+            color: white;
+            border-radius:5px;
+        }
         .content{
             min-height: 100%;
             margin-bottom: -100px;
@@ -52,7 +64,7 @@
     <script src="../_js/jquery-ui.min.js"></script>
     <script>
         $(document).ready(function(){
-            $(".1").click(function(){
+            $(".home_click").click(function(){
                 $(".home").css('display', 'block');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -60,7 +72,7 @@
                 $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
             });
-            $(".2").click(function(){
+            $(".wait_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'block');
                 $(".support").css('display', 'none');
@@ -68,7 +80,7 @@
                 $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
             });
-            $(".3").click(function(){
+            $(".support_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'block');
@@ -76,7 +88,7 @@
                 $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
             });
-            $(".4").click(function(){
+            $(".join_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -84,13 +96,21 @@
                 $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
             });
-            $(".5").click(function(){
+            $(".contact_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
                 $(".join").css('display', 'none');
                 $(".contact").css('display', 'block');
                 $(".question").css('display', 'none');
+            });
+            $(".question_click").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".question").css('display', 'block');
             });
         });
     </script>
@@ -99,12 +119,12 @@
     <div class="content">
         <div class="hihi">
                 <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
-                <p class="1">首頁</p>
-                <p class="2">等家的喵</p>
-                <p class="3">支持浪喵</p>
-                <p class="4">加入我們</p>
-                <p class="5">常見問題</p>
-                <p style="background-color: #ff8c00; color: white; border-radius:5px;">聯絡我們</p>
+                <p class="home_click">首頁</p>
+                <p class="wait_click">等家的喵</p>
+                <p class="support_click">支持浪喵</p>
+                <p class="join_click">加入我們</p>
+                <p class="contact_click">常見問題</p>
+                <p class="question_click">聯絡我們</p>
         </div>
 
         <div class="home">
