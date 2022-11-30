@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>moumou</title>
     <style>
-        body{
+        html, body{
+            height: 100%;
+            margin: 0;
             background-color: white;
         }
         .hihi{
@@ -17,6 +19,7 @@
 		    text-align: right;
             left: -10px;
             position: fixed;
+            border-bottom-style: inset;
         }
         .hihi p{
             display: inline;
@@ -29,17 +32,26 @@
         .hihi p:hover{
             border-bottom:3px solid #ff8c00;
 	    }
+        .content {
+            min-height: calc(100% - 100px);
+        }
+        .footer {
+            height: 100px;
+            background-color: black;
+        }
     </style>
 </head>
 <body>
     <div class="hihi">
-        <div>
+            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
             <p>首頁</p>
             <p>等家的喵</p>
             <p>支持浪喵</p>
             <p>加入我們</p>
-            <p style="background-color: #ff8c00; color: white; border-radius:5px;">聯絡我們</p>
-        </div>
+            <p style="background-color: #ff8c00; color: white; border-radius:5px;" class="contact">聯絡我們</p>
     </div>
+    <div class="content">
+    </div>
+    <footer class="footer"></footer>
 </body>
 </html>
