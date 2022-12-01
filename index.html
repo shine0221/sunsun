@@ -54,9 +54,165 @@
             padding-bottom: 100px;
             display: none;
         }
+
+        .wait_1{
+            height: 200px;
+            margin: 0;
+            background-color: #D4D4D4;
+        }
+
+        .wait_1 p{
+            font-size: 30px;
+            color: #ff8c00;
+            position: absolute;
+            left: 10px;
+            top: 190px;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .wait_2{
+            height: 30px;
+            width: 2000px;
+            padding-left: 50px;
+            padding-top: 30px;
+            margin: 0;
+            background-color: white;
+            display: inline-block;
+        }
+
+        .wait_2 li{
+            cursor: pointer;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .wait_2 > li:last-child{
+            border-right: none;
+        }
+
+        ul.wait_2 > li {
+            float: left;
+        }
+
+        .wait_2 a{
+            padding: 10px;
+            background-color: #37394E;
+            border-radius: 20px;
+            margin: 150px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .wait_2 a:hover{
+            background-color: #ff8c00;
+        }
+
+        .wait_2 li:hover > a{
+            background-color: #ff8c00;
+        }
+
+        .wait_2 ul{
+            position: absolute;
+            z-index: 99;
+            left: 120px;
+            top: 100%;
+            line-height: 40px;
+        }
+
+        .wait_2 ul {
+            display: none;
+        }
+
+        .wait_2 li:hover > ul {
+            display: block;
+        }
+
+        .wait_3{
+            height: 500px;
+            width: 1860px;
+            margin: 30px;
+            background-color: #F0F0F0;
+            border-radius:5px;
+        }
+
+        .support_1{
+            height: 200px;
+            margin: 0;
+            background-color: #D4D4D4;
+        }
+
+        .support_1 p{
+            font-size: 30px;
+            color: #ff8c00;
+            position: absolute;
+            left: 10px;
+            top: 190px;
+        }
+
+        .support_2{
+            height: 200px;
+            width: 1870px;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin: 0;
+            background-color: white;
+        }
+
+        .support_2 p{
+            width: 150px;
+            height: 30px;
+            padding-top: 8px;
+            text-align: center;
+            background-color: #37394E;
+            color: white;
+            border-radius:20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .item_1{
+            height: 200px;
+            margin: 0;
+            background-color: #F0F0F0;
+            border-radius:5px;
+        }
+
+        .support_3{
+            height: 200px;
+            width: 1870px;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin: 0;
+            background-color: white;
+        }
+
+        .support_3 p{
+            width: 150px;
+            height: 30px;
+            padding-top: 8px;
+            text-align: center;
+            background-color: #37394E;
+            color: white;
+            border-radius:20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .item_2{
+            height: 200px;
+            margin: 0;
+            background-color: #F0F0F0;
+            border-radius:5px;
+        }
+
         .footer {
             height: 100px;
-            background-color: black;
+            background-color: #37394E;
         }
     </style>
     <script src="../_js/jquery.min.js"></script>
@@ -131,11 +287,62 @@
         </div>
 
         <div class="wait">
-            <p>2</p>
+            <div class="wait_1">
+                <p><b>等家的喵</b></p>
+            </div>
+            <ul class="wait_2">
+                <li><a href="#">性別&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</a>
+                    <ul>
+                        <li><a href="#">男</a>
+                        </li>
+                        <li><a href="#">女</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">年齡&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</a>
+                    <ul>
+                        <li><a href="#">0-1歲</a>
+                        </li>
+                        <li><a href="#">1-2歲</a>
+                        </li>
+                        <li><a href="#">2歲以上</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">體型&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</a>
+                    <ul>
+                        <li><a href="#">小隻</a>
+                        </li>
+                        <li><a href="#">中等</a>
+                        </li>
+                        <li><a href="#">大隻</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">親近&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</a>
+                    <ul>
+                        <li><a href="#">親人</a>
+                        </li>
+                        <li><a href="#">不親人</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="wait_3"></div>
         </div>
 
         <div class="support">
-            <p>3</p>
+            <div class="support_1">
+                <p><b>支持浪喵</b></p>
+            </div>
+            <div class="support_2">
+                <p>貓貓罐頭</p>
+                <div class="item_1"></div>
+            </div>
+            <div class="support_3">
+                <p>貓貓貓砂</p>
+                <div class="item_2"></div>
+            </div>
         </div>
 
         <div class="join">
