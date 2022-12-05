@@ -27,18 +27,18 @@
 		    cursor: pointer;
             border-bottom:3px solid transparent;
         }
-        .home_click, .wait_click, .support_click, .join_click, .contact_click{
+        .home_click, .wait_click, .support_click, .join_click, .question_click{
             color: black;
         }
         .hihi p:hover{
             border-bottom:3px solid #ff8c00;
 	    }
-        .question_click{
+        .contact_click{
             background-color: #ff8c00;
             color: white;
             border-radius:5px;
         }
-        .question_click:hover{
+        .contact_click:hover{
             background-color: black;
             color: white;
             border-radius:5px;
@@ -50,7 +50,7 @@
         .home{
             padding-bottom: 100px;
         }
-        .wait, .support, .join, .contact, .question{
+        .wait, .support, .join, .question, .contact{
             padding-bottom: 100px;
             display: none;
         }
@@ -134,7 +134,7 @@
 
         .wait_3{
             height: 200px;
-            width: 1860px;
+            width: 180px;
             margin: 30px;
             background-color: #F0F0F0;
             border-radius:5px;
@@ -283,48 +283,48 @@
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
                 $(".join").css('display', 'none');
-                $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
             });
             $(".wait_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'block');
                 $(".support").css('display', 'none');
                 $(".join").css('display', 'none');
-                $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
             });
             $(".support_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'block');
                 $(".join").css('display', 'none');
-                $(".contact").css('display', 'none');
                 $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
             });
             $(".join_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
                 $(".join").css('display', 'block');
+                $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
-                $(".question").css('display', 'none');
-            });
-            $(".contact_click").click(function(){
-                $(".home").css('display', 'none');
-                $(".wait").css('display', 'none');
-                $(".support").css('display', 'none');
-                $(".join").css('display', 'none');
-                $(".contact").css('display', 'block');
-                $(".question").css('display', 'none');
             });
             $(".question_click").click(function(){
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
                 $(".join").css('display', 'none');
-                $(".contact").css('display', 'none');
                 $(".question").css('display', 'block');
+                $(".contact").css('display', 'none');
+            });
+            $(".contact_click").click(function(){
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".question").css('display', 'none');
+                $(".contact").css('display', 'block');
             });
         });
     </script>
@@ -337,8 +337,8 @@
                 <p class="wait_click">等家的喵</p>
                 <p class="support_click">支持浪喵</p>
                 <p class="join_click">加入我們</p>
-                <p class="contact_click">常見問題</p>
-                <p class="question_click">聯絡我們</p>
+                <p class="question_click">常見問題</p>
+                <p class="contact_click">聯絡我們</p>
         </div>
 
         <div class="home">
@@ -441,11 +441,11 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="question">
             <p>5</p>
         </div>
 
-        <div class="question">
+        <div class="contact">
             <p>6</p>
         </div>
     </div>
