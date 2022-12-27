@@ -11,7 +11,7 @@
             margin: 0;
             background-color: white;
         }
-        .hihi{
+        .hihi_1{
             height: 30px;
 		    padding: 20px;
 		    margin: 0 auto 0 auto;
@@ -20,17 +20,37 @@
             border-bottom-style: inset;
             background-color: white;
         }
-        .hihi p{
+        .hihi_2{
+            height: 30px;
+		    padding: 20px;
+		    margin: 0 auto 0 auto;
+		    text-align: right;
+            left: -10px;
+            border-bottom-style: inset;
+            background-color: white;
+            display: none;
+        }
+        .hihi_3{
+            height: 30px;
+		    padding: 20px;
+		    margin: 0 auto 0 auto;
+		    text-align: right;
+            left: -10px;
+            border-bottom-style: inset;
+            background-color: white;
+            display: none;
+        }
+        .hihi_1 p, .hihi_2 p, .hihi_3 p{
             display: inline;
 		    margin: 20px;
 		    padding: 10px;	
 		    cursor: pointer;
             border-bottom:3px solid transparent;
         }
-        .home_click, .wait_click, .support_click, .join_click, .question_click{
+        .first_click, .home_click, .wait_click, .support_click, .join_click, .question_click{
             color: black;
         }
-        .hihi p:hover{
+        .hihi_1 p:hover, .hihi_2 p:hover, .hihi_3 p:hover{
             border-bottom:3px solid #ff8c00;
 	    }
         .contact_click{
@@ -50,21 +70,37 @@
         .home{
             padding-bottom: 100px;
         }
-        .wait, .support, .join, .question, .contact{
+        .home, .wait, .support, .join, .question, .contact{
             padding-bottom: 100px;
             display: none;
         }
 
+        .first_1{
+            float: left;
+            height: 900px;
+            width: 50%;
+            background-color: #ED974A;
+            cursor: pointer;
+        }
+
+        .first_2{
+            float: left;
+            height: 900px;
+            width: 50%;
+            background-color: #1E3135;
+            cursor: pointer;
+        }
+
         .home_1{
-            margin: 0 auto;
-            text-align: center;
+            margin: 0 auto 0 120px;
+            float:left;
             padding-top: 50px;
         }
 
         .home_2{
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 50px;
+            margin: 0 150px 0 auto;
+            float:right;
+            padding-top: 80px;
         }
 
         .wait_1{
@@ -432,7 +468,44 @@
     <script src="../_js/jquery-ui.min.js"></script>
     <script>
         $(document).ready(function(){
+            $(".first_1").click(function(){
+                $(".first").css('display', 'none');
+                $(".home").css('display', 'block');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".hihi_1").css('display', 'none');
+                $(".hihi_2").css('display', 'block');
+                $(".hihi_3").css('display', 'none');
+            });
+            $(".first_2").click(function(){
+                $(".first").css('display', 'none');
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'block');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".hihi_1").css('display', 'none');
+                $(".hihi_2").css('display', 'none');
+                $(".hihi_3").css('display', 'block');
+            });
+            $(".first_click").click(function(){
+                $(".first").css('display', 'block');
+                $(".home").css('display', 'none');
+                $(".wait").css('display', 'none');
+                $(".support").css('display', 'none');
+                $(".join").css('display', 'none');
+                $(".question").css('display', 'none');
+                $(".contact").css('display', 'none');
+                $(".hihi_1").css('display', 'block');
+                $(".hihi_2").css('display', 'none');
+                $(".hihi_3").css('display', 'none');
+            });
             $(".home_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'block');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -441,6 +514,7 @@
                 $(".contact").css('display', 'none');
             });
             $(".wait_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'block');
                 $(".support").css('display', 'none');
@@ -449,6 +523,7 @@
                 $(".contact").css('display', 'none');
             });
             $(".support_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'block');
@@ -457,6 +532,7 @@
                 $(".contact").css('display', 'none');
             });
             $(".join_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -465,6 +541,7 @@
                 $(".contact").css('display', 'none');
             });
             $(".question_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -473,6 +550,7 @@
                 $(".contact").css('display', 'none');
             });
             $(".contact_click").click(function(){
+                $(".first").css('display', 'none');
                 $(".home").css('display', 'none');
                 $(".wait").css('display', 'none');
                 $(".support").css('display', 'none');
@@ -489,14 +567,34 @@
 </head>
 <body>
     <div class="content">
-        <div class="hihi">
+        <div class="hihi_1">
                 <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
-                <p class="home_click">首頁</p>
-                <p class="wait_click">等家的喵</p>
-                <p class="support_click">支持浪喵</p>
-                <p class="join_click">加入我們</p>
                 <p class="question_click">常見問題</p>
                 <p class="contact_click">聯絡我們</p>
+        </div>
+
+        <div class="hihi_2">
+            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+            <p class="first_click">首頁</p>
+            <p class="home_click">每日志工</p>
+            <p class="join_click">志工分類</p>
+            <p class="question_click">常見問題</p>
+            <p class="contact_click">聯絡我們</p>
+        </div>
+
+        <div class="hihi_3">
+            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+            <p class="first_click">首頁</p>
+            <p class="wait_click">等家的喵</p>
+            <p class="support_click">寵物商店</p>
+            <p class="question_click">常見問題</p>
+            <p class="contact_click">聯絡我們</p>
+        </div>
+
+
+        <div class="first">
+            <div class="first_1"></div>
+            <div class="first_2"></div>
         </div>
 
         <div class="home">
