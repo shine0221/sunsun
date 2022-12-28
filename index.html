@@ -92,11 +92,11 @@
         }
 
         .first_1:hover{
-            background-color: #FFA042;
+            background-color: #ed964ac4;
         }
 
         .first_2:hover{
-            background-color: #37394E;
+            background-color: #1e3135c9;
         }
 
         .home_1{
@@ -267,7 +267,7 @@
             width:269px;
             height: 269px;
             line-height:30px;
-            background-color: #D4D4D4;
+            background-color: #ed964a80;
             margin: 0px 12px 0px 12px;
             float:left;
             border-radius:20px;
@@ -301,31 +301,31 @@
             background-color: white;
         }
 
-        .question_1{
+        .question_1, .contact_1{
             height: 500px;
             margin: 0;
             background-color: #D4D4D4;
         }
 
-        .question_2{
+        .question_2, .contact_2{
             width: 1196px;
             height: 1000px;
             margin: 0 auto;
         }
 
-        .QA{
+        .QA, .infor{
             width: 500px;
             float: left;
         }
 
-        .Q_1, .Q_2, .Q_3, .Q_4, .Q_5{
+        .Q_1, .Q_2, .Q_3, .Q_4, .Q_5, .in_1, .in_2, .in_3, .in_4{
             width: 500px;
             padding-left: 20px;
             padding-top: 20px;
             margin: 0;
         }
 
-        .Q_1 p, .Q_2 p, .Q_3 p, .Q_4 p , .Q_5 p{
+        .Q_1 p, .Q_2 p, .Q_3 p, .Q_4 p , .Q_5 p, .in_1 p, .in_2 p, .in_3 p, .in_4 p{
             width: 150px;
             height: 30px;
             padding-top: 8px;
@@ -337,7 +337,7 @@
             cursor: pointer;
         }
 
-        .Q_1_ans, .Q_2_ans, .Q_3_ans, .Q_4_ans, .Q_5_ans{
+        .Q_1_ans, .Q_2_ans, .Q_3_ans, .Q_4_ans, .Q_5_ans, .for_2, .for_3{
             width: 500px;
             padding-left: 20px;
             padding-top: 20px;
@@ -345,7 +345,7 @@
             position:relative;
         }
 
-        .Q_1_ans p, .Q_2_ans p, .Q_3_ans p, .Q_4_ans p, .Q_5_ans p{
+        .Q_1_ans p, .Q_2_ans p, .Q_3_ans p, .Q_4_ans p, .Q_5_ans p, .for_2 p, .for_3 p{
             width: 500px;
             height: 30px;
             padding-top: 8px;
@@ -443,6 +443,53 @@
             display: none;
         }
 
+        .for_1{
+            width: 200px;
+            height: 200px;
+            position:relative;
+            border:1px solid #ff8c00;
+            border-radius:20px;
+            margin: 20px 20px 20px 30px;
+            cursor: pointer;
+        }
+
+        .for_1 h3{
+            font-size: 30px;
+            width: 500px;
+            padding-left: 250px;
+            margin-top: -200px;
+        }
+
+        .for_1 p{
+            font-size: larger;
+            width: 500px;
+            padding-left: 250px;
+            margin-top: -20px;
+            color: gray;
+        }
+
+        .for_4{
+            width: 500px;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin: 0;
+            position:relative;
+        }
+
+        .for_4 p{
+            width: 500px;
+            height: 160px;
+            padding-top: 8px;
+            padding-left: 20px;
+            text-align: left;
+            background-color: white;
+            border:1px solid #ff8c00;
+            color: #37394E;
+            border-radius:20px;
+            margin: -10px 10px 10px 10px;
+            cursor: pointer;
+        }
+
         .type{
             width: 200px;
             height: 500px;
@@ -470,6 +517,7 @@
         .footer {
             height: 100px;
             background-color: #37394E;
+            display: none;
         }
     </style>
     <script src="../_js/jquery.min.js"></script>
@@ -484,6 +532,7 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
+                $(".footer").css('display', 'block');
                 $(".hihi_1").css('display', 'none');
                 $(".hihi_2").css('display', 'block');
                 $(".hihi_3").css('display', 'none');
@@ -496,6 +545,7 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
+                $(".footer").css('display', 'block');
                 $(".hihi_1").css('display', 'none');
                 $(".hihi_2").css('display', 'none');
                 $(".hihi_3").css('display', 'block');
@@ -508,6 +558,7 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
+                $(".footer").css('display', 'none');
                 $(".hihi_1").css('display', 'block');
                 $(".hihi_2").css('display', 'none');
                 $(".hihi_3").css('display', 'none');
@@ -556,6 +607,7 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'block');
                 $(".contact").css('display', 'none');
+                $(".footer").css('display', 'block');
             });
             $(".contact_click").click(function(){
                 $(".first").css('display', 'none');
@@ -565,6 +617,7 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'block');
+                $(".footer").css('display', 'block');
             });
 
             $('.Q_1_ans').click(function(){
@@ -577,6 +630,7 @@
     <div class="content">
         <div class="hihi_1">
                 <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+                <p class="first_click">首頁</p>
                 <p class="question_click">常見問題</p>
                 <p class="contact_click">聯絡我們</p>
         </div>
@@ -759,7 +813,64 @@
         </div>
 
         <div class="contact">
-            <p>6</p>
+            <div class="contact_1">
+            </div>
+            <div class="contact_2">
+                <div class="infor">
+                    <div class="infor_1">
+                        <div class="in_1">
+                            <p>負責人</p>
+                        </div>
+                        <div class="for_1">
+                            <img src="/photo/huimom.JPG" style="width: 200px; height: 200px; border-radius: 20px;">
+                            <h3><b>許媽媽</b></h3>
+                            <p>----------------------------------<br>
+                                ----------------------------------<br>
+                                ----------------------------------<br>
+                                ----------------------------------<br>
+                                ----------------------------------<br>
+                                ----------------------------------</p>
+                        </div>
+                    </div>
+                    <div class="infor_2">
+                        <div class="in_2">
+                            <p>地址</p>
+                        </div>
+                        <div class="for_2">
+                            <p>桃園市楊梅區裕成南路276巷32號&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        </div>
+                    </div>
+                    <div class="infor_3">
+                        <div class="in_3">
+                            <p>電話</p>
+                        </div>
+                        <div class="for_3">
+                            <p>09-65322800&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        </div>
+                    </div>
+                    <div class="infor_4">
+                        <div class="in_4">
+                            <p>營業時間</p>
+                        </div>
+                        <div class="for_4">
+                            <p>星期一：休息<br>
+                            星期二：休息<br>
+                            星期三：休息<br>
+                            星期四：休息<br>
+                            星期五：休息<br>
+                            星期六：休息<br>
+                            星期天：星期日：13：00 - 17：00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="type">
+                    <h3 style="color:#ff8c00;">類別</h3>
+                    <p>負責人</p>
+                    <p>地址</p>
+                    <p>電話</p>
+                    <p>營業時間</p>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="footer"></footer>
