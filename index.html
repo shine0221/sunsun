@@ -86,10 +86,11 @@
         .first_1 p{
             font-size: 30px;
             width: 35px;
-            background-color: red;
+            background-color: rgba(255, 0, 0, 0.700);
             color:white;
             border-radius: 20px;
-            margin-left: 30px;
+            margin-left: 660px;
+            margin-top: -470px;
         }
 
         .first_2{
@@ -103,10 +104,11 @@
         .first_2 p{
             font-size: 30px;
             width: 35px;
-            background-color: red;
+            background-color: rgba(255, 0, 0, 0.700);
             color:white;
             border-radius: 20px;
-            margin-left: 890px;
+            margin-left: 660px;
+            margin-top: -450px;
         }
 
         .first_1:hover{
@@ -132,15 +134,14 @@
         .wait_1{
             height: 250px;
             margin: 0;
-            background-color: #D4D4D4;
         }
 
         .wait_1 p{
-            font-size: 30px;
-            color: #ff8c00;
+            font-size: 50px;
+            color: #1E3135;
             position: absolute;
             left: 10px;
-            top: 490px;
+            top: 200px;
         }
 
         .wait_2{
@@ -168,17 +169,124 @@
             cursor: pointer;
         }
 
-        .choose p:hover{
+        .choose_1 p:hover{
+            background-color: #ff8c00;
+        }
+        .choose_2 p:hover{
+            background-color: #ff8c00;
+        }
+        .choose_3 p:hover{
+            background-color: #ff8c00;
+        }
+        .choose_4 p:hover{
+            background-color: #ff8c00;
+        }
+        .choose_5 p:hover{
             background-color: #ff8c00;
         }
 
+        .choose_1{
+            position:relative;
+        }
+        .choose_11{
+            display: none;
+        } 
+
+        .choose_11 p{
+            width: 200px;
+            height: 60px;
+            margin-top: -20px;
+            padding-top: 18px;
+            line-height: 25px;
+            background-color: white;
+            color: #37394E;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius:20px;
+            border-bottom-right-radius:20px;
+            box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);
+        }
+
         .cat{
-            width: 800px;
-            height: 200px;
-            background-color: #F0F0F0;
+            width: 930px;
+            height: 500px;
             margin: 10px 0 0 50px;
             border-radius:20px;
-            float: right;
+            float: left;
+        }
+
+        .cat_1{
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
+            float: left;
+            margin-left: 30px;
+        }
+
+        .cat_1_bg{
+            width: 200px;
+            height: 10px;
+            background-color: #36538A;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cat_1 h2{
+            font-weight: bolder;
+        }
+
+        .cat_1_gohome{
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            margin: 0px auto;
+            background-color: #ED974A;
+            margin-top: 25px;
+            cursor: pointer;
+        }
+
+        .cat_1_gohome h4{
+            color: white;
+            padding-top: 8px;
+        }
+
+        .cat_2{
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
+            float: left;
+            margin-left: 30px;
+        }
+
+        .cat_2_bg{
+            width: 200px;
+            height: 10px;
+            background-color: #E57373;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cat_2 h2{
+            font-weight: bolder;
+        }
+
+        .cat_2_gohome{
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            margin: 0px auto;
+            background-color: #ED974A;
+            margin-top: 25px;
+            cursor: pointer;
+        }
+
+        .cat_2_gohome h4{
+            color: white;
+            padding-top: 8px;
         }
 
         .item_1{
@@ -240,7 +348,7 @@
         }
 
         .aaa, .bbb, .ccc, .ddd{
-            margin-top: 285px;
+            margin-top: 15px;
             font-size: large;
         }
 
@@ -255,6 +363,7 @@
             border:3px solid #ff8c00;
             font-weight:bold;
             color: #ff8c00;
+            background-color: white;
         }
 
         .join_4{
@@ -585,6 +694,74 @@
             $('.Q_1_ans').click(function(){
                 $('.Q_1_wer').toggle();
             });
+
+            $('.choose_1').click(function(){
+                $('.choose_11').toggle();
+            });
+
+            var how1 = document.querySelector('#how1');
+            var how11 = document.querySelector('#how11');
+            var how2 = document.querySelector('#how2');
+            var how22 = document.querySelector('#how22');
+            var how3 = document.querySelector('#how3');
+            var how33 = document.querySelector('#how33');
+            var how4 = document.querySelector('#how4');
+            var how44 = document.querySelector('#how44');
+            var how5 = document.querySelector('#how5');
+            var how55 = document.querySelector('#how55');
+
+            var mation1 = document.querySelector('#mation1');
+            var mation11 = document.querySelector('#mation11');
+            var mation2 = document.querySelector('#mation2');
+            var mation22 = document.querySelector('#mation22');
+            var mation3 = document.querySelector('#mation3');
+            var mation33 = document.querySelector('#mation33');
+            var mation4 = document.querySelector('#mation4');
+            var mation44 = document.querySelector('#mation44');
+
+            function to(toEl){
+                let bridge = toEl;
+                let body = document.body;
+                let height = 0;
+
+                do{
+                    height += bridge.offsetTop;
+                    bridge = bridge.offsetParent;
+                }while (bridge !== body)
+
+                window.scrollTo({
+                    top: height,
+                    behavior: 'smooth'
+                })
+            }
+
+            how11.addEventListener('click', function(){
+                to(how1)
+            });
+            how22.addEventListener('click', function(){
+                to(how2)
+            });
+            how33.addEventListener('click', function(){
+                to(how3)
+            });
+            how44.addEventListener('click', function(){
+                to(how4)
+            });
+            how55.addEventListener('click', function(){
+                to(how5)
+            });
+            mation11.addEventListener('click', function(){
+                to(mation1)
+            });
+            mation22.addEventListener('click', function(){
+                to(mation2)
+            });
+            mation33.addEventListener('click', function(){
+                to(mation3)
+            });
+            mation44.addEventListener('click', function(){
+                to(mation4)
+            });
         });
     </script>
 </head>
@@ -618,14 +795,14 @@
 
         <div class="first" style="text-align: center;">
             <div class="first_1">
-                <p>5</p>
                 <img src="/photo/user.png" style="width: 290px; height: 290px; padding-top: 225px;">
                 <h1 style="color: white; font-size: 50px;">\毛起來當志工/</h1>
+                <p>5</p>
             </div>
             <div class="first_2">
-                <p>5</p>
-                <img src="/photo/pawprint.png" style="width: 290px; height: 290px; padding-top: 225px;">
+                <img src="/photo/pawprint.png" style="width: 290px; height: 290px; padding-top: 205px;">
                 <h1 style="color: white; font-size: 50px;">\毛起來認養/</h1>
+                <p>5</p>
             </div>
         </div>
 
@@ -640,16 +817,72 @@
 
         <div class="wait">
             <div class="wait_1">
-                <p><b>等家的喵</b></p>
+                <img src="/photo/background.JPG" height="250px" width="100%" style="opacity: 0.5;">
+                <p><b>松樹の喵</b></p>
             </div>
             <div class="wait_2">
                 <div class="choose">
-                    <p>性別&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
-                    <p>年齡&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
-                    <p>體型&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
-                    <p>親近&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    <div class="choose_1">
+                        <p>性別&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    </div>
+                    <div class="choose_11">
+                        <p>底迪<br>
+                        妹妹</p>
+                    </div>
+                    <div class="choose_2">
+                        <p>年齡&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    </div>
+                    <div class="choose_3">
+                        <p>體型&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    </div>
+                    <div class="choose_4">
+                        <p>親近&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    </div>
+                    <div class="choose_5">
+                        <p>認養&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
+                    </div>
                 </div>
                 <div class="cat">
+                    <div class="cat_1">
+                        <div class="cat_1_bg"></div>
+                        <img src="/photo/black.jpg" width="100px" height="100px" style="border-radius: 50px; margin-top: 20px;">
+                        <h2>小黑</h2>
+                        <p>小松樹の黏人精<br>
+                        6個月</p>
+                        <div class="cat_1_gohome">
+                            <h4>帶我回家</h4>
+                        </div>
+                    </div>
+                    <div class="cat_2">
+                        <div class="cat_2_bg"></div>
+                        <img src="/photo/eat.jpg" width="100px" height="100px" style="border-radius: 50px; margin-top: 20px;">
+                        <h2>愛吃鬼</h2>
+                        <p>愛吃の巧達<br>
+                        未知</p>
+                        <div class="cat_2_gohome">
+                            <h4>帶我回家</h4>
+                        </div>
+                    </div>
+                    <div class="cat_1">
+                        <div class="cat_1_bg"></div>
+                        <img src="/photo/orange.jpg" width="100px" height="100px" style="border-radius: 50px; margin-top: 20px;">
+                        <h2>大橘貓</h2>
+                        <p>憨厚老實の年輕人<br>
+                        1歲</p>
+                        <div class="cat_1_gohome">
+                            <h4>帶我回家</h4>
+                        </div>
+                    </div>
+                    <div class="cat_2">
+                        <div class="cat_2_bg"></div>
+                        <img src="/photo/long.jpg" width="100px" height="100px" style="border-radius: 50px; margin-top: 20px;">
+                        <h2>長尾三花</h2>
+                        <p>貓咪界の特技演員<br>
+                        秘密</p>
+                        <div class="cat_2_gohome">
+                            <h4>帶我回家</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -672,24 +905,28 @@
             </div>
             <div class="join_3">
                 <div class="a">
+                    <img src="/photo/volunteer_1.png" style="width: 250px; height: 250px; padding-top: 10px;">
                     <div class="aa"></div>
                     <div class="aaa" style="color: black;">排班志工</div>
                     ▼
                 </div>
     
                 <div class="b">
+                    <img src="/photo/volunteer_2.png" style="width: 270px; height: 250px; padding-top: 10px;">
                     <div class="bb"></div>
                     <div class="bbb" style="color: black;">文書志工</div>
                     ▼
                 </div>
     
                 <div class="c">
+                    <img src="/photo/volunteer_3.png" style="width: 220px; height: 250px; padding-top: 10px;">
                     <div class="cc"></div>
                     <div class="ccc" style="color: black;">攝影志工</div>
                     ▼
                 </div>
     
                 <div class="d">
+                    <img src="/photo/volunteer_4.png" style="width: 270px; height: 250px; padding-top: 10px;">
                     <div class="dd"></div>
                     <div class="ddd" style="color: black;">車手志工</div>
                     ▼
@@ -707,7 +944,7 @@
             </div>
             <div class="question_2">
                 <div class="QA">
-                    <div class="QA_1">
+                    <div class="QA_1" id="how1">
                         <div class="Q_1">
                             <p>如何領養</p>
                         </div>
@@ -726,7 +963,7 @@
                                 3.填寫領養表格</p>
                         </div>
                     </div>
-                    <div class="QA_2">
+                    <div class="QA_2" id="how2">
                         <div class="Q_2">
                             <p>志工相關</p>
                         </div>
@@ -734,7 +971,7 @@
                             <p>如何加入？需要具備的條件？&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
                         </div>
                     </div>
-                    <div class="QA_3">
+                    <div class="QA_3" id="how3">
                         <div class="Q_3">
                             <p>我想幫忙</p>
                         </div>
@@ -742,7 +979,7 @@
                             <p>除了領養小松樹的貓咪外，還可以幫什麼忙？&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
                         </div>
                     </div>
-                    <div class="QA_4">
+                    <div class="QA_4" id="how4">
                         <div class="Q_4">
                             <p>關於小松樹</p>
                         </div>
@@ -750,7 +987,7 @@
                             <p>想了解更多關於小松樹的事情！&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;▽</p>
                         </div>
                     </div>
-                    <div class="QA_5">
+                    <div class="QA_5" id="how5">
                         <div class="Q_5">
                             <p>其他</p>
                         </div>
@@ -761,11 +998,11 @@
                 </div>
                 <div class="type">
                     <h3 style="color:#ff8c00;">類別</h3>
-                    <p>如何領養</p>
-                    <p>志工相關</p>
-                    <p>我想幫忙</p>
-                    <p>關於小松樹</p>
-                    <p>其他</p>
+                    <p id="how11">如何領養</p>
+                    <p id="how22">志工相關</p>
+                    <p id="how33">我想幫忙</p>
+                    <p id="how44">關於小松樹</p>
+                    <p id="how55">其他</p>
                 </div>
             </div>
         </div>
@@ -775,7 +1012,7 @@
             </div>
             <div class="contact_2">
                 <div class="infor">
-                    <div class="infor_1">
+                    <div class="infor_1" id="mation1">
                         <div class="in_1">
                             <p>負責人</p>
                         </div>
@@ -790,7 +1027,7 @@
                                 ----------------------------------</p>
                         </div>
                     </div>
-                    <div class="infor_2">
+                    <div class="infor_2" id="mation2">
                         <div class="in_2">
                             <p>地址</p>
                         </div>
@@ -798,7 +1035,7 @@
                             <p>桃園市楊梅區裕成南路276巷32號&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         </div>
                     </div>
-                    <div class="infor_3">
+                    <div class="infor_3" id="mation3">
                         <div class="in_3">
                             <p>電話</p>
                         </div>
@@ -806,7 +1043,7 @@
                             <p>0965-322-800&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         </div>
                     </div>
-                    <div class="infor_4">
+                    <div class="infor_4" id="mation4">
                         <div class="in_4">
                             <p>營業時間</p>
                         </div>
@@ -823,10 +1060,10 @@
                 </div>
                 <div class="type">
                     <h3 style="color:#ff8c00;">類別</h3>
-                    <p>負責人</p>
-                    <p>地址</p>
-                    <p>電話</p>
-                    <p>營業時間</p>
+                    <p id="mation11">負責人</p>
+                    <p id="mation22">地址</p>
+                    <p id="mation33">電話</p>
+                    <p id="mation44">營業時間</p>
                 </div>
             </div>
         </div>
