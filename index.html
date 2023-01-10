@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>moumou</title>
     <style>
-        html, body{
+        html{
             height: 100%;
-            margin: 0;
             background-color: white;
+        }
+        body{
+            margin: 0;
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: 1fr auto;
         }
         .hihi_1{
             height: 30px;
@@ -65,7 +70,6 @@
         }
         .content{
             min-height: 100%;
-            margin-bottom: -100px;
         }
         .home{
             padding-bottom: 100px;
@@ -75,40 +79,30 @@
             display: none;
         }
 
-        .first_1{
-            float: left;
-            height: 900px;
-            width: 50%;
-            background-color: #ED974A;
-            cursor: pointer;
+        .first_12{
+            height: 200px;
+            width: 100%;
+            margin-top: 20px;
         }
 
-        .first_1 p{
-            font-size: 30px;
-            width: 35px;
-            background-color: rgba(255, 0, 0, 0.700);
-            color:white;
-            border-radius: 20px;
-            margin-left: 660px;
-            margin-top: -470px;
+        .first_1{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background-color: #ED974A;
+            border-radius: 100px;
+            cursor: pointer;
+            margin-left: 400px;
         }
 
         .first_2{
             float: left;
-            height: 900px;
-            width: 50%;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
             background-color: #1E3135;
             cursor: pointer;
-        }
-
-        .first_2 p{
-            font-size: 30px;
-            width: 35px;
-            background-color: rgba(255, 0, 0, 0.700);
-            color:white;
-            border-radius: 20px;
-            margin-left: 660px;
-            margin-top: -450px;
+            margin-left: 710px;
         }
 
         .first_1:hover{
@@ -117,6 +111,76 @@
 
         .first_2:hover{
             background-color: #1e3135c9;
+        }
+
+        .first_3{
+            width: 120px;
+            height: 40px;
+            background-color: white;
+            border: black 3px solid;
+            border-radius: 30px;
+            margin: 80px auto auto auto;
+            cursor: pointer;
+        }
+
+        .first_3 h3{
+            margin-top: 8px;
+        }
+
+        .first_4{
+            width: 72%;
+            height: 5px;
+            margin: 20px auto 0px auto;
+            background-color: #ED974A;
+        }
+
+        .first_5{
+            margin-top: -5px;
+        }
+
+        .first_5 p{
+            display: inline;
+        }
+
+        .first_5 h3{
+            display: inline;
+            font-weight: bold;
+        }
+
+        .first_51{
+            margin-left: 260px;
+            margin-right: 100px;
+            float: left;
+            color: transparent;
+        }
+        
+        .first_52, .first_53, .first_54, .first_55{
+            margin-right: 100px;
+            float: left;
+            color: transparent;
+        }
+
+        .first_511{
+            margin-left: -115px;
+        }
+
+        .first_512{
+            margin-left: -98px;
+        }
+
+        .ff{
+            cursor: pointer;
+            color: black;
+        }
+
+        .first_51:hover, .first_52:hover, .first_53:hover, .first_54:hover, .first_55:hover{
+            color: #ED974A;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        .first_6{
+            margin-top: 100px;
         }
 
         .home_1{
@@ -140,14 +204,14 @@
             font-size: 50px;
             color: #1E3135;
             position: absolute;
-            left: 10px;
-            top: 200px;
+            left: 190px;
+            top: 300px;
         }
 
         .wait_2{
             height: 30px;
             width: 1196px;
-            padding-top: 30px;
+            padding-top: 170px;
             margin: 0px auto;
             background-color: white;
         }
@@ -209,7 +273,7 @@
 
         .cat{
             width: 930px;
-            height: 500px;
+            height: 800px;
             margin: 10px 0 0 50px;
             border-radius:20px;
             float: left;
@@ -587,8 +651,9 @@
 
         .footer {
             height: 100px;
+            grid-row-start: 2;
+            grid-row-end: 3;
             background-color: #37394E;
-            display: none;
         }
     </style>
     <script src="../_js/jquery.min.js"></script>
@@ -603,7 +668,6 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
-                $(".footer").css('display', 'block');
                 $(".hihi_1").css('display', 'none');
                 $(".hihi_2").css('display', 'block');
                 $(".hihi_3").css('display', 'none');
@@ -616,7 +680,6 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
-                $(".footer").css('display', 'block');
                 $(".hihi_1").css('display', 'none');
                 $(".hihi_2").css('display', 'none');
                 $(".hihi_3").css('display', 'block');
@@ -629,7 +692,6 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'none');
-                $(".footer").css('display', 'none');
                 $(".hihi_1").css('display', 'block');
                 $(".hihi_2").css('display', 'none');
                 $(".hihi_3").css('display', 'none');
@@ -678,7 +740,6 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'block');
                 $(".contact").css('display', 'none');
-                $(".footer").css('display', 'block');
             });
             $(".contact_click").click(function(){
                 $(".first").css('display', 'none');
@@ -688,7 +749,6 @@
                 $(".join").css('display', 'none');
                 $(".question").css('display', 'none');
                 $(".contact").css('display', 'block');
-                $(".footer").css('display', 'block');
             });
 
             $('.Q_1_ans').click(function(){
@@ -794,15 +854,64 @@
 
 
         <div class="first" style="text-align: center;">
-            <div class="first_1">
-                <img src="/photo/user.png" style="width: 290px; height: 290px; padding-top: 225px;">
-                <h1 style="color: white; font-size: 50px;">\毛起來當志工/</h1>
-                <p>5</p>
+            <div class="first_12">
+                <div class="first_1">
+                    <img src="/photo/user.png" style="width: 50px; height: 50px; padding-top: 50px;">
+                    <h1 style="color: white; font-size: 20px;">\毛起來當志工/</h1>
+                </div>
+                <div class="first_2">
+                    <img src="/photo/pawprint.png" style="width: 50px; height: 50px; padding-top: 50px;">
+                    <h1 style="color: white; font-size: 20px;">\毛起來認養/</h1>
+                </div>
             </div>
-            <div class="first_2">
-                <img src="/photo/pawprint.png" style="width: 290px; height: 290px; padding-top: 205px;">
-                <h1 style="color: white; font-size: 50px;">\毛起來認養/</h1>
-                <p>5</p>
+            <div class="first_3">
+                <h3>影片欣賞</h3>
+            </div>
+            <div class="first_4"></div>
+            <div class="first_5">
+                <div class="first_51">
+                    <div class="first_512">
+                        ▼
+                    </div>
+                    <p>&emsp;<br></p>
+                    <p>&emsp;</p>
+                    <h3 class="ff">小松樹介紹</h3>
+                    <h3 style="color: black; font-style: normal;">&emsp;&emsp;&emsp;&emsp;&emsp;｜</h3>
+                </div>
+                <div class="first_52">
+                    <div class="first_511">
+                        ▼
+                    </div>
+                    <p>&emsp;<br></p>
+                    <h3 class="ff">志工訪談</h3>
+                    <h3 style="color: black; font-style: normal;">&emsp;&emsp;&emsp;&emsp;&emsp;｜</h3>
+                </div>
+                <div class="first_53">
+                    <div class="first_511">
+                        ▼
+                    </div>
+                    <p>&emsp;<br></p>
+                    <h3 class="ff">收養人訪談</h3>
+                    <h3 style="color: black; font-style: normal;">&emsp;&emsp;&emsp;&emsp;&emsp;｜</h3>
+                </div>
+                <div class="first_54">
+                    <div class="first_511">
+                        ▼
+                    </div>
+                    <p>&emsp;<br></p>
+                    <h3 class="ff">志工分類動畫</h3>
+                    <h3 style="color: black; font-style: normal;">&emsp;&emsp;&emsp;&emsp;&emsp;｜</h3>
+                </div>
+                <div class="first_55">
+                    <div class="first_513">
+                        <p>▼<br></p>
+                    </div>
+                    <p>&emsp;<br></p>
+                    <h3 class="ff">領養程序動畫</h3>
+                </div>
+            </div>
+            <div class="first_6">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/7IkNbM9wm8M" title="【謝謝妳的堅持，讓浪浪有個家】｜小松樹流浪貓咪中途之家" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 20px;"></iframe>
             </div>
         </div>
 
@@ -816,8 +925,8 @@
         </div>
 
         <div class="wait">
-            <div class="wait_1">
-                <img src="/photo/background.JPG" height="250px" width="100%" style="opacity: 0.5;">
+            <div class="wait_1" style="text-align: center;">
+                <img src="/photo/background.JPG" width="1552px" height="350px" style="opacity: 0.5;">
                 <p><b>松樹の喵</b></p>
             </div>
             <div class="wait_2">
