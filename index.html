@@ -23,8 +23,7 @@
 		    margin: 0 auto 0 auto;
 		    text-align: right;
             left: -10px;
-            border-bottom-style: inset;
-            background-color: white;
+            background-color: #ED974A;
         }
         .hihi_2{
             height: 30px;
@@ -32,8 +31,7 @@
 		    margin: 0 auto 0 auto;
 		    text-align: right;
             left: -10px;
-            border-bottom-style: inset;
-            background-color: white;
+            background-color: #ED974A;
             display: none;
         }
         .hihi_3{
@@ -42,8 +40,7 @@
 		    margin: 0 auto 0 auto;
 		    text-align: right;
             left: -10px;
-            border-bottom-style: inset;
-            background-color: white;
+            background-color: #ED974A;
             display: none;
         }
         .hihi_1 p, .hihi_2 p, .hihi_3 p{
@@ -51,23 +48,24 @@
 		    margin: 20px;
 		    padding: 10px;	
 		    cursor: pointer;
+            color: white;
             border-bottom:3px solid transparent;
+            font-weight: bolder;
         }
         .first_click, .home_click, .wait_click, .support_click, .join_click, .question_click{
             color: black;
         }
         .hihi_1 p:hover, .hihi_2 p:hover, .hihi_3 p:hover{
-            border-bottom:3px solid #ff8c00;
+            border-bottom:3px solid white;
 	    }
         .contact_click{
-            background-color: #ff8c00;
-            color: white;
-            border-radius:5px;
+            background-color: black;
+            border-radius:20px;
         }
         .contact_click:hover{
-            background-color: black;
-            color: white;
-            border-radius:5px;
+            background-color: white;
+            color: black;
+            border-radius:20px;
         }
         .content{
             min-height: 100%;
@@ -127,6 +125,7 @@
             border-radius: 30px;
             margin: 80px auto auto auto;
             cursor: pointer;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
         }
 
         .first_3 h3{
@@ -209,6 +208,7 @@
             border-radius: 30px;
             margin: 80px auto auto auto;
             cursor: pointer;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
         }
 
         .first_7 h3{
@@ -257,7 +257,7 @@
             margin: 0px auto;
             background-color: #222222;
             border: black 3px solid;
-            margin-top: -20px;
+            margin-top: -10px;
             cursor: pointer;
             position:relative;
         }
@@ -269,20 +269,58 @@
         }
 
         .home_1{
-            margin: 0 auto 0 120px;
-            float:left;
-            padding-top: 50px;
+            margin: 80px auto 0px 375px;
         }
 
         .home_2{
-            margin: 0 150px 0 auto;
-            float:right;
-            padding-top: 80px;
+            width: 120px;
+            height: 40px;
+            background-color: white;
+            border: black 3px solid;
+            border-radius: 30px;
+            margin: 170px auto auto auto;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
+        }
+
+        .home_2 h3{
+            margin-top: 8px;
+        }
+
+        .home_3{
+            width: 72%;
+            height: 5px;
+            margin: 20px auto 0px auto;
+            background-color: #ED974A;
+        }
+
+        .home_4{
+            width: 120px;
+            height: 40px;
+            border-radius: 25px;
+            margin: 0px auto;
+            background-color: black;
+            margin-top: 25px;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
+            padding-top: 10px;
+        }
+
+        .home_4 a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: large;
         }
 
         .wait_1{
             height: 250px;
             margin: 0;
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+            background-color: transparent;
         }
 
         .wait_1 p{
@@ -455,15 +493,21 @@
         .join_1{
             height: 250px;
             margin: 0 auto;
-            background-color: #D4D4D4;
+        }
+
+        .join_1 p{
+            font-size: 50px;
+            color: #1E3135;
+            position: absolute;
+            left: 190px;
+            top: 300px;
         }
 
         .join_2{
             height: 50px;
             width: 1196px;
-            padding-top: 25px;
+            padding-top: 170px;
             margin: 0PX auto;
-            background-color: white;
         }
 
         .join_2 p{
@@ -524,13 +568,23 @@
         .question_1, .contact_1{
             height: 250px;
             margin: 0;
-            background-color: #D4D4D4;
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+        }
+
+        .question_1 p, .contact_1 p{
+            font-size: 50px;
+            color: #1E3135;
+            position: absolute;
+            left: 190px;
+            top: 300px;
         }
 
         .question_2, .contact_2{
             width: 1196px;
             height: 1000px;
             margin: 0 auto;
+            padding-top: 170px;
         }
 
         .QA, .infor{
@@ -952,6 +1006,14 @@
                 $('.choose_11').toggle();
             });
 
+            $(".logo").click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                },
+                500
+                );
+            });
+
             var how1 = document.querySelector('#how1');
             var how11 = document.querySelector('#how11');
             var how2 = document.querySelector('#how2');
@@ -988,6 +1050,10 @@
                 })
             }
 
+            logo.addEventListener('click', function(){
+                to(title)
+            });
+
             how11.addEventListener('click', function(){
                 to(how1)
             });
@@ -1016,33 +1082,95 @@
                 to(mation4)
             });
         });
+
+        x=1;
+        function change1(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_1").src="/photo/1-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_1").src="/photo/1-"+x+".jpg";
+            }
+        }
+        function change2(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_2").src="/photo/2-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_2").src="/photo/2-"+x+".jpg";
+            }
+        }
+        function change3(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_3").src="/photo/3-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_3").src="/photo/3-"+x+".jpg";
+            }
+        }
+        function change4(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_4").src="/photo/4-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_4").src="/photo/4-"+x+".jpg";
+            }
+        }
+        function change5(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_5").src="/photo/5-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_5").src="/photo/5-"+x+".jpg";
+            }
+        }
+        function change6(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_6").src="/photo/6-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_6").src="/photo/6-"+x+".jpg";
+            }
+        }
     </script>
 </head>
 <body>
     <div class="content">
         <div class="hihi_1">
-                <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+                <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 210px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
                 <p class="first_click">首頁</p>
                 <p class="question_click">常見問題</p>
-                <p class="contact_click">聯絡我們</p>
+                <p class="contact_click">小松樹的屋</p>
         </div>
 
         <div class="hihi_2">
-            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 210px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
             <p class="first_click">首頁</p>
             <p class="home_click">每日志工</p>
             <p class="join_click">志工分類</p>
             <p class="question_click">常見問題</p>
-            <p class="contact_click">聯絡我們</p>
+            <p class="contact_click">小松樹的屋</p>
         </div>
 
         <div class="hihi_3">
-            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 20px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
+            <img src="/photo/logo.jpg" style="width: 30px; height: 30px; position:fixed; left: 210px; top: 20px; border-radius:15px; cursor: pointer;" class="logo">
             <p class="first_click">首頁</p>
             <p class="wait_click">等家的喵</p>
             <p class="support_click">每日認養</p>
             <p class="question_click">常見問題</p>
-            <p class="contact_click">聯絡我們</p>
+            <p class="contact_click">小松樹的屋</p>
         </div>
 
 
@@ -1104,7 +1232,7 @@
                 </div>
             </div>
             <div class="first_6">
-                <iframe width="1164" height="654" src="https://www.youtube.com/embed/20oABcmN1Uo" title="【謝謝妳的堅持，讓浪浪有個家】｜小松樹流浪貓咪中途之家" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 20px;"></iframe>
+                <iframe width="1000" height="562" src="https://www.youtube.com/embed/20oABcmN1Uo" title="【謝謝妳的堅持，讓浪浪有個家】｜小松樹流浪貓咪中途之家" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 20px;"></iframe>
             </div>
             <div class="first_7">
                 <h3>貓貓の漫畫</h3>
@@ -1112,37 +1240,37 @@
             <div class="first_8"></div>
             <div class="first_9">
                 <div class="comic_1">
-                    <img src="/photo/1-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_1" src="/photo/1-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change1()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP1-白白</h4>
                     </div>
                 </div>
                 <div class="comic_2">
-                    <img src="/photo/2-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_2" src="/photo/2-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change2()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP2-小黑</h4>
                     </div>
                 </div>
                 <div class="comic_3">
-                    <img src="/photo/3-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_3" src="/photo/3-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change3()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP3-泰國</h4>
                     </div>
                 </div>
                 <div class="comic_1">
-                    <img src="/photo/4-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_4" src="/photo/4-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change4()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP4-大橘貓</h4>
                     </div>
                 </div>
                 <div class="comic_2">
-                    <img src="/photo/5-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_5" src="/photo/5-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change5()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP5-愛吃鬼</h4>
                     </div>
                 </div>
                 <div class="comic_3">
-                    <img src="/photo/6-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
+                    <img id="photo_6" src="/photo/6-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change6()">
                     <div class="check">
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP6-咪喵</h4>
                     </div>
@@ -1151,17 +1279,25 @@
         </div>
 
         <div class="home">
-            <div class="home_1">
-                <iframe src="https://calendar.google.com/calendar/embed?src=b36fee1151023aadcdca425f1711af739f66e690936dbb00cf505a0089b2c31d%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="wait_1" style="text-align: center;">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
+                <p><b>有空都來看我們！</b></p>
             </div>
             <div class="home_2">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxjUOk-kWU-9NWC4It5xAmD4q_w8k4CuVKcWE3WQ9OxxF2Mw/viewform?embedded=true" width="640" height="537" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+                <h3>志工的排班</h3>
+            </div>
+            <div class="home_3"></div>
+            <div class="home_1">
+                <iframe src="https://calendar.google.com/calendar/embed?src=b36fee1151023aadcdca425f1711af739f66e690936dbb00cf505a0089b2c31d%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="home_4">
+                <a href="https://forms.gle/gbqkdceckMGZAjwy6" target="_blank">我來報名了</a>
             </div>
         </div>
 
         <div class="wait">
             <div class="wait_1" style="text-align: center;">
-                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5;">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
                 <p><b>松樹の喵</b></p>
             </div>
             <div class="wait_2">
@@ -1232,16 +1368,26 @@
         </div>
 
         <div class="support">
-            <div class="home_1">
-                <iframe src="https://calendar.google.com/calendar/embed?src=576feea0faef16ca986b9a62fbe2084181bb6d236f022c2da0cc89de607cdae1%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="wait_1" style="text-align: center;">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
+                <p><b>把喵們帶回家！</b></p>
             </div>
             <div class="home_2">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqH3da8ft-eQbiDe6rOgkbQ06crxIl2THqrz7YRSBgQxQnXg/viewform?embedded=true" width="640" height="537" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+                <h3>每日認養</h3>
+            </div>
+            <div class="home_3"></div>
+            <div class="home_1">
+                <iframe src="https://calendar.google.com/calendar/embed?src=576feea0faef16ca986b9a62fbe2084181bb6d236f022c2da0cc89de607cdae1%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="home_4">
+                <a href="https://forms.gle/mRP1XALmMr3wtJ1a7" target="_blank">預約</a>
             </div>
         </div>
 
         <div class="join">
             <div class="join_1">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
+                <p><b>毛志工都在幹嘛？</b></p>
             </div>
             <div class="join_2">
                 <p>志工分類</p>
@@ -1285,6 +1431,8 @@
 
         <div class="question">
             <div class="question_1">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
+                <p><b>對松樹の疑問？</b></p>
             </div>
             <div class="question_2">
                 <div class="QA">
@@ -1353,6 +1501,8 @@
 
         <div class="contact">
             <div class="contact_1">
+                <img src="/photo/background.JPG" width="1550.5px" height="350px" style="opacity: 0.5; border-top-left-radius: 150px; border-top-right-radius: 150px;">
+                <p><b>快來松樹找喵們！</b></p>
             </div>
             <div class="contact_2">
                 <div class="infor">
