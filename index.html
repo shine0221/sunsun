@@ -224,8 +224,15 @@
 
         .first_9{
             width: 72%;
-            height: 1000px;
+            height: 900px;
             margin: 20px auto 0px auto;
+        }
+
+        .first_10{
+            width: 72%;
+            height: 900px;
+            margin: 20px auto 0px auto;
+            display: none;
         }
 
         .comic_1{
@@ -251,7 +258,7 @@
         }
 
         .check{
-            width: 110px;
+            width: 125px;
             height: 40px;
             border-radius: 20px;
             margin: 0px auto;
@@ -266,6 +273,59 @@
             color: white;
             font-size: large;
             margin-top: 8px;
+        }
+
+        .change_comic_1{
+            text-align: center;
+            margin: 0px auto 100px auto;
+            height: 20px;
+        }
+
+        .change_comic_2{
+            text-align: center;
+            margin: 0px auto 100px auto;
+            height: 20px;
+            display: none;
+        }
+
+        .change_y{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            margin-left: 750px;
+            margin-right: 20px;
+            background-color: #ED974A;
+            cursor: pointer;
+        }
+
+        .change_n{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #D9D9D9;
+            cursor: pointer;
+        }
+
+        .change_yy{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            margin-left: 750px;
+            margin-right: 20px;
+            background-color: #D9D9D9;
+            cursor: pointer;
+        }
+
+        .change_nn{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #ED974A;
+            cursor: pointer;
         }
 
         .home_1{
@@ -998,6 +1058,20 @@
                 $(".contact").css('display', 'block');
             });
 
+            $(".change_n").click(function(){
+                $(".first_9").css('display', 'none');
+                $(".first_10").css('display', 'block');
+                $(".change_comic_1").css('display', 'none');
+                $(".change_comic_2").css('display', 'block');
+            });
+
+            $(".change_yy").click(function(){
+                $(".first_10").css('display', 'none');
+                $(".first_9").css('display', 'block');
+                $(".change_comic_2").css('display', 'none');
+                $(".change_comic_1").css('display', 'block');
+            });
+
             $('.Q_1_ans').click(function(){
                 $('.Q_1_wer').toggle();
             });
@@ -1049,10 +1123,6 @@
                     behavior: 'smooth'
                 })
             }
-
-            logo.addEventListener('click', function(){
-                to(title)
-            });
 
             how11.addEventListener('click', function(){
                 to(how1)
@@ -1142,6 +1212,66 @@
             else if(x = 5){
                 x -= 4;
                 document.getElementById("photo_6").src="/photo/6-"+x+".jpg";
+            }
+        }
+        function change7(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_7").src="/photo/7-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_7").src="/photo/7-"+x+".jpg";
+            }
+        }
+        function change8(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_8").src="/photo/8-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_8").src="/photo/8-"+x+".jpg";
+            }
+        }
+        function change9(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_9").src="/photo/9-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_9").src="/photo/9-"+x+".jpg";
+            }
+        }
+        function change10(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_10").src="/photo/10-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_10").src="/photo/10-"+x+".jpg";
+            }
+        }
+        function change11(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_11").src="/photo/11-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_11").src="/photo/11-"+x+".jpg";
+            }
+        }
+        function change12(){
+            if(x < 4){
+                x++;
+                document.getElementById("photo_12").src="/photo/12-"+x+".jpg";
+            }
+            else if(x = 5){
+                x -= 4;
+                document.getElementById("photo_12").src="/photo/12-"+x+".jpg";
             }
         }
     </script>
@@ -1275,6 +1405,52 @@
                         <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP6-咪喵</h4>
                     </div>
                 </div>
+            </div>
+            <div class="change_comic_1">
+                <div class="change_y"></div>
+                <div class="change_n"></div>
+            </div>
+            <div class="first_10" style="display: none;">
+                <div class="comic_1">
+                    <img id="photo_7" src="/photo/7-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change7()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP7-小美</h4>
+                    </div>
+                </div>
+                <div class="comic_2">
+                    <img id="photo_8" src="/photo/8-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change8()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP8-小金</h4>
+                    </div>
+                </div>
+                <div class="comic_3">
+                    <img id="photo_9" src="/photo/9-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change9()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP9-加菲貓</h4>
+                    </div>
+                </div>
+                <div class="comic_1">
+                    <img id="photo_10" src="/photo/10-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change10()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP10-大嗓門</h4>
+                    </div>
+                </div>
+                <div class="comic_2">
+                    <img id="photo_11" src="/photo/11-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change11()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP11-長尾三花</h4>
+                    </div>
+                </div>
+                <div class="comic_3">
+                    <img id="photo_12" src="/photo/12-1.jpg" width="300px" height="300px" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);" onclick="change12()">
+                    <div class="check">
+                        <h4 style="box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.411);">EP12-美短媽媽</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="change_comic_2">
+                <div class="change_yy"></div>
+                <div class="change_nn"></div>
             </div>
         </div>
 
