@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $(".first_1").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'block');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -13,6 +14,7 @@ $(document).ready(function(){
     });
     $(".first_2").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'block');
         $(".support").css('display', 'none');
@@ -25,6 +27,7 @@ $(document).ready(function(){
     });
     $(".first_click").click(function(){
         $(".first").css('display', 'block');
+        $(".titleee").css('display', 'block');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -37,6 +40,7 @@ $(document).ready(function(){
     });
     $(".home_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'block');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -46,6 +50,7 @@ $(document).ready(function(){
     });
     $(".wait_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'block');
         $(".support").css('display', 'none');
@@ -55,6 +60,7 @@ $(document).ready(function(){
     });
     $(".support_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'block');
@@ -64,6 +70,7 @@ $(document).ready(function(){
     });
     $(".join_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -73,6 +80,7 @@ $(document).ready(function(){
     });
     $(".question_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -82,6 +90,7 @@ $(document).ready(function(){
     });
     $(".contact_click").click(function(){
         $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
         $(".home").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
@@ -108,17 +117,45 @@ $(document).ready(function(){
         $('.Q_1_wer').toggle();
     });
 
+    $('.Q_2_ans').click(function(){
+        $('.Q_2_wer').toggle();
+    });
+
+    $('.Q_3_ans').click(function(){
+        $('.Q_3_wer').toggle();
+    });
+
+    $('.Q_4_ans').click(function(){
+        $('.Q_4_wer').toggle();
+    });
+
+    $('.Q_5_ans').click(function(){
+        $('.Q_5_wer').toggle();
+    });
+
     $('.choose_1').click(function(){
         $('.choose_11').toggle();
     });
 
-    $(".logo").click(function() {
-        $("html, body").animate({
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+          if ($(".back-top").hasClass("hide")) {
+            $(".back-top").toggleClass("hide");
+          }
+        } else {
+          $(".back-top").addClass("hide");
+        }
+      });
+    
+      // 點擊按鈕回頂部
+      $(".back-top").on("click", function (event) {
+        $("html, body").animate(
+          {
             scrollTop: 0
-        },
-        500
+          },
+          500 // 回頂部時間為 500 毫秒
         );
-    });
+      });
 
     var how1 = document.querySelector('#how1');
     var how11 = document.querySelector('#how11');
@@ -187,122 +224,122 @@ $(document).ready(function(){
 
 x=1;
 function change1(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_1").src="/photo/1-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_1").src="/photo/1-"+x+".jpg";
     }
 }
 function change2(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_2").src="/photo/2-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_2").src="/photo/2-"+x+".jpg";
     }
 }
 function change3(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_3").src="/photo/3-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_3").src="/photo/3-"+x+".jpg";
     }
 }
 function change4(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_4").src="/photo/4-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_4").src="/photo/4-"+x+".jpg";
     }
 }
 function change5(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_5").src="/photo/5-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_5").src="/photo/5-"+x+".jpg";
     }
 }
 function change6(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_6").src="/photo/6-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_6").src="/photo/6-"+x+".jpg";
     }
 }
 function change7(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_7").src="/photo/7-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_7").src="/photo/7-"+x+".jpg";
     }
 }
 function change8(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_8").src="/photo/8-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_8").src="/photo/8-"+x+".jpg";
     }
 }
 function change9(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_9").src="/photo/9-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_9").src="/photo/9-"+x+".jpg";
     }
 }
 function change10(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_10").src="/photo/10-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_10").src="/photo/10-"+x+".jpg";
     }
 }
 function change11(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_11").src="/photo/11-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_11").src="/photo/11-"+x+".jpg";
     }
 }
 function change12(){
-    if(x < 4){
+    if(x < 5){
         x++;
         document.getElementById("photo_12").src="/photo/12-"+x+".jpg";
     }
-    else if(x = 5){
-        x -= 4;
+    else if(x = 6){
+        x -= 5;
         document.getElementById("photo_12").src="/photo/12-"+x+".jpg";
     }
 }
