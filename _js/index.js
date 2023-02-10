@@ -353,6 +353,16 @@ $(document).ready(function(){
     $('.choose_1').click(function(){
         $('.choose_11').toggle();
     });
+    $('.choose_2').click(function(){
+        $('.choose_22').toggle();
+    });
+    $('.choose_3').click(function(){
+        $('.choose_33').toggle();
+    });
+
+    $('.choose_4').click(function(){
+        $('.choose_44').toggle();
+    });
 
     var p1 = document.querySelector('.first_101');
     var p2 = document.querySelector('.first_102');

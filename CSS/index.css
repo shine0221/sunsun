@@ -436,56 +436,14 @@ body{
 .choose{
     width: 200px;
     float: left;
-}
-
-.choose p{
-    width: 200px;
-    height: 30px;
-    padding-top: 8px;
-    text-align: center;
-    background-color: #37394E;
-    color: white;
-    border-radius:20px;
-    margin: 10px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
-.choose_1 p:hover{
-    background-color: #ff8c00;
-}
-.choose_2 p:hover{
-    background-color: #ff8c00;
-}
-.choose_3 p:hover{
-    background-color: #ff8c00;
-}
-.choose_4 p:hover{
-    background-color: #ff8c00;
-}
-.choose_5 p:hover{
-    background-color: #ff8c00;
-}
-
-.choose_1{
-    position:relative;
-}
-.choose_11{
+.choose_11, .choose_22, .choose_33, .choose_44{
+    margin-bottom: 20px;
+    margin-left: 10px;
     display: none;
-} 
-
-.choose_11 p{
-    width: 200px;
-    height: 60px;
-    margin-top: -20px;
-    padding-top: 18px;
-    line-height: 25px;
-    background-color: white;
-    color: #37394E;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius:20px;
-    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);
 }
 
 .cat{
