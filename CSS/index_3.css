@@ -10,7 +10,7 @@
         width: 100%;
         display: grid;
         grid-template-rows: 1fr auto;
-        background-color: black;
+        background-color: #ED974A;
     }
     .back-top {
         z-index: 99999;
