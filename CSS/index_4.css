@@ -8,6 +8,8 @@
         margin: 0;
         min-height: 100%;
         width: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
         background-color: #ED974A;
     }
     .back-top {
@@ -50,7 +52,6 @@
         text-align: right;
         left: -10px;
         background-color: #ED974A;
-        display: none;
     }
     .hihi_2{
         height: 30px;
@@ -122,14 +123,12 @@
         float: left;
         cursor: pointer;
         margin: 10% 180px auto 0px;
-        display: none;
     }
     
     .first_2{
         float: left;
         cursor: pointer;
         margin: 10% auto;
-        display: none;
     }
     
     .title_1{
