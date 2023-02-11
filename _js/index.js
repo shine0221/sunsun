@@ -11,6 +11,7 @@ $(document).ready(function(){
         $(".hihi_1").css('display', 'none');
         $(".hihi_2").css('display', 'block');
         $(".hihi_3").css('display', 'none');
+        t2.style.color = "black";
     });
     $(".first_2").click(function(){
         $(".first").css('display', 'none');
@@ -24,6 +25,7 @@ $(document).ready(function(){
         $(".hihi_1").css('display', 'none');
         $(".hihi_2").css('display', 'none');
         $(".hihi_3").css('display', 'block');
+        t3.style.color = "black";
     });
 
     var t1 = document.querySelector('.first_click');
