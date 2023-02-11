@@ -11,7 +11,6 @@
         display: grid;
         grid-template-rows: 1fr auto;
         background-color: #ED974A;
-        overflow: hidden;
     }
     .back-top {
         z-index: 99999;
