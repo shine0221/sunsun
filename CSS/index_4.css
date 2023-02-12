@@ -319,7 +319,9 @@
     }
     
     .home_1{
-        margin: 50px auto 0px 280px;
+        margin: 50px auto;
+        width: 72%;
+        height: 500px;
     }
     
     .home_2{
@@ -381,7 +383,7 @@
     }
     
     .tip_2{
-        width: 60%;
+        width: 90%;
         height: 50px;
         background-color: white;
         border-radius: 50px;
@@ -403,7 +405,7 @@
     
     .tip_2 h4{
         margin-top: 13px;
-        padding-left: 22px;
+        padding-left: 10px;
         color: #F0F0F0;
     }
     
@@ -411,6 +413,31 @@
         font-weight: bolder;
         margin-left: 80px;
         margin-top: 14px;
+    }
+
+    .tips{
+        margin-top: 200px auto;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .tips_1{
+        color: #ED974A;
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .tips_line{
+        width: 90%;
+        height: 5px;
+        margin: 0px auto 50px;
+        background-color: #ED974A;
+    }
+
+    .tips_2{
+        width: 100%;
+        margin-left: 25px;
     }
     
     .wait_1{
@@ -422,11 +449,11 @@
     }
     
     .wait_1 p{
-        font-size: 50px;
+        font-size: 37px;
         color: #1E3135;
         position: absolute;
-        left: 190px;
-        top: 300px;
+        left: 100px;
+        top: 320px;
     }
     
     .wait_2{
@@ -438,39 +465,44 @@
     }
     
     .choose{
-        width: 200px;
-        float: left;
-        margin-top: 10px;
+        width:100%;
+        margin: 10px auto;
         cursor: pointer;
+    }
+
+    .choose_one, .choose_two, .choose_three, .choose_four{
+        width: 50%;
+        float: left;
+        text-align: center;
     }
     
     .choose_11, .choose_22, .choose_33, .choose_44{
         margin-bottom: 20px;
         margin-left: 10px;
-        display: none;
+        display: block;
     }
     
     .cat{
-        width: 930px;
+        width: 100%;
         height: 800px;
-        margin: 10px 0 0 50px;
+        margin: 10px 0 0 30px;
         border-radius:20px;
         float: left;
     }
     
     .cat_1{
-        width: 200px;
+        width: 150px;
         height: 300px;
         border-radius: 10px;
         background-color: white;
         text-align: center;
         box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
         float: left;
-        margin-left: 30px;
+        margin-bottom: 50px;
     }
     
     .cat_1_bg{
-        width: 200px;
+        width: 150px;
         height: 10px;
         background-color: #36538A;
         border-radius: 10px 10px 0 0;
@@ -496,18 +528,18 @@
     }
     
     .cat_2{
-        width: 200px;
+        width: 150px;
         height: 300px;
         border-radius: 10px;
         background-color: white;
         text-align: center;
         box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
         float: left;
-        margin-left: 30px;
+        margin-bottom: 50px;
     }
     
     .cat_2_bg{
-        width: 200px;
+        width: 150px;
         height: 10px;
         background-color: #E57373;
         border-radius: 10px 10px 0 0;
@@ -552,11 +584,11 @@
     }
     
     .join_1 p{
-        font-size: 50px;
+        font-size: 37px;
         color: #1E3135;
         position: absolute;
-        left: 190px;
-        top: 300px;
+        left: 100px;
+        top: 322px;
     }
     
     .join_3{
@@ -566,11 +598,11 @@
     }
     
     .a, .b, .c, .d{
-        width: 265px;
-        height: 265px;
+        width: 100px;
+        height: 100px;
         line-height:30px;
         background-color: #ed964a80;
-        margin: 0px 20px 0px 15px;
+        margin: 0px 33.5px 0px 20px;
         float:left;
         border-radius:200px;
         text-align: center;
@@ -580,12 +612,12 @@
     }
     
     .aaa, .bbb, .ccc, .ddd{
-        margin-top: 63px;
+        margin-top: 20px;
         font-size: large;
     }
     
     .line{
-        height: 325px;
+        height: 170px;
         width: 100%;
         margin-left: 0px auto;
         border-bottom:3px solid #ff8c00;

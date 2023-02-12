@@ -317,7 +317,9 @@ body{
 }
 
 .home_1{
-    margin: 80px auto 0px 375px;
+    margin: 80px auto;
+    width: 72%;
+    height: 600px;
 }
 
 .home_2{
@@ -409,6 +411,31 @@ body{
     font-weight: bolder;
     margin-left: 80px;
     margin-top: 14px;
+}
+
+.tips{
+    margin-top: 200px auto;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.tips_1{
+    color: #ED974A;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.tips_line{
+    width: 72%;
+    height: 5px;
+    margin: 0px auto 50px;
+    background-color: #ED974A;
+}
+
+.tips_2{
+    width: 60%;
+    margin: 0px auto;
 }
 
 .wait_1{
@@ -578,7 +605,7 @@ body{
 }
 
 .aaa, .bbb, .ccc, .ddd{
-    margin-top: 63px;
+    margin-top: 52px;
     font-size: large;
 }
 
