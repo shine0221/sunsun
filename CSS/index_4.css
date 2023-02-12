@@ -109,7 +109,7 @@
     
     .titleee{
         width: 100%;
-        height: 17.7%;
+        height: 17.95%;
         background-color: #ED974A;
     }
     
@@ -134,6 +134,7 @@
     .title_1{
         text-align: center;
         margin: 0px auto auto 50px;
+        height: 100%;
     }
     
     .first_0{
@@ -609,30 +610,38 @@
         border-top-right-radius: 150px;
     }
     
-    .question_1 p, .contact_1 p{
-        font-size: 50px;
+    .question_1 p{
+        font-size: 40px;
         color: #1E3135;
         position: absolute;
-        left: 190px;
-        top: 300px;
+        left: 100px;
+        top: 320px;
+    }
+
+    .contact_1 p{
+        font-size: 37px;
+        color: #1E3135;
+        position: absolute;
+        left: 100px;
+        top: 330px;
     }
     
     .question_2{
-        width: 72%;
-        height: 800px;
+        width: 100%;
+        height: 870px;
         margin: 0px auto;
         padding-top: 150px;
     }
     
     .contact_2{
-        width: 72%;
+        width: 100%;
         height: 1500px;
         margin: 0px auto;
         padding-top: 150px;
     }
     
     .QA{
-        width: 50%;
+        width: 72%;
         margin: 0px auto;
     }
     
@@ -772,7 +781,7 @@
     }*/
     
     .infor{
-        width: 72%;
+        width: 100%;
         margin: 0px auto;
     }
     
