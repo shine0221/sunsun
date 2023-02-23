@@ -276,6 +276,52 @@ $(document).ready(function(){
         t11.style = "background-color:white; color:black;";
     });
 
+    var a1 = document.querySelector('.a');
+    var b1 = document.querySelector('.b');
+    var c1 = document.querySelector('.c');
+    var d1 = document.querySelector('.d');
+
+    $(".a").click(function(){
+        $(".join_4").css('display', 'block');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        a1.style.color = "#ff8c00";
+        b1.style.color = "transparent";
+        c1.style.color = "transparent";
+        d1.style.color = "transparent";
+    });
+    $(".b").click(function(){
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'block');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        b1.style.color = "#ff8c00";
+        a1.style.color = "transparent";
+        c1.style.color = "transparent";
+        d1.style.color = "transparent";
+    });
+    $(".c").click(function(){
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'block');
+        $(".join_7").css('display', 'none');
+        c1.style.color = "#ff8c00";
+        b1.style.color = "transparent";
+        a1.style.color = "transparent";
+        d1.style.color = "transparent";
+    });
+    $(".d").click(function(){
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'block');
+        d1.style.color = "#ff8c00";
+        b1.style.color = "transparent";
+        c1.style.color = "transparent";
+        a1.style.color = "transparent";
+    });
+
     var q1 = document.querySelector('.Q_1_ans p');
     var q2 = document.querySelector('.Q_2_ans p');
     var q3 = document.querySelector('.Q_3_ans p');

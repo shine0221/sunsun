@@ -485,7 +485,7 @@ body{
 
 .cat_1{
     width: 200px;
-    height: 300px;
+    height: 315px;
     border-radius: 10px;
     background-color: white;
     text-align: center;
@@ -502,7 +502,11 @@ body{
 }
 
 .cat_1 h2{
-    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.cat_1 p{
+    margin-top: -20px;
 }
 
 .cat_1_gohome{
@@ -511,7 +515,7 @@ body{
     border-radius: 20px;
     margin: 0px auto;
     background-color: #ED974A;
-    margin-top: 25px;
+    margin-top: -15px;
     cursor: pointer;
 }
 
@@ -522,7 +526,7 @@ body{
 
 .cat_2{
     width: 200px;
-    height: 300px;
+    height: 315px;
     border-radius: 10px;
     background-color: white;
     text-align: center;
@@ -539,7 +543,11 @@ body{
 }
 
 .cat_2 h2{
-    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.cat_2 p{
+    margin-top: -20px;
 }
 
 .cat_2_gohome{
@@ -548,7 +556,7 @@ body{
     border-radius: 20px;
     margin: 0px auto;
     background-color: #ED974A;
-    margin-top: 25px;
+    margin-top: -15px;
     cursor: pointer;
 }
 
@@ -594,7 +602,6 @@ body{
     width: 265px;
     height: 265px;
     line-height:30px;
-    background-color: #ed964a80;
     margin: 0px 20px 0px 15px;
     float:left;
     border-radius:200px;
@@ -605,7 +612,7 @@ body{
 }
 
 .aaa, .bbb, .ccc, .ddd{
-    margin-top: 52px;
+    margin-top: 10px;
     font-size: large;
 }
 
@@ -623,10 +630,19 @@ body{
     background-color: white;
 }
 
-.join_4{
+.join_4, .join_5, .join_6, .join_7{
     height: 500px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: white;
+    text-align: center;
+}
+
+.join_4_1 h2{
+    margin: 0px auto;
+    width: 50%;
+    background-color: #ED974A;
+    color: white;
+    border-radius: 10px;
 }
 
 .question_1, .contact_1{
