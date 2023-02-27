@@ -1,7 +1,7 @@
 html{
     width: 100%;
     height: 100%;
-    background-color: #ED974A;
+    background-color: #FFCE46;
 }
 body{
     margin: 0;
@@ -9,7 +9,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    background-color: #ED974A;
+    background-color: #FFCE46;
 }
 .back-top {
     z-index: 99999;
@@ -50,7 +50,7 @@ body{
     margin: 0 auto 0 auto;
     text-align: right;
     left: -10px;
-    background-color: #ED974A;
+    background-color: #FFCE46;
 }
 .hihi_2{
     height: 30px;
@@ -59,7 +59,7 @@ body{
     margin: 0 auto 0 auto;
     text-align: right;
     left: -10px;
-    background-color: #ED974A;
+    background-color: #FFCE46;
     display: none;
 }
 .hihi_3{
@@ -69,7 +69,7 @@ body{
     margin: 0 auto 0 auto;
     text-align: right;
     left: -10px;
-    background-color: #ED974A;
+    background-color: #FFCE46;
     display: none;
 }
 .hihi_1 p, .hihi_2 p, .hihi_3 p{
@@ -108,8 +108,8 @@ body{
 
 .titleee{
     width: 100%;
-    height: 25.5%;
-    background-color: #ED974A;
+    height: 20.3%;
+    background-color: #FFCE46;
 }
 
 .first_12{
@@ -154,59 +154,77 @@ body{
 }
 
 .first_0000{
-    width: 100%;
+    width: 50%;
     height: 280px;
     margin: 80px auto;
+    background: linear-gradient(90.31deg, #FFCE46 21.84%, rgba(255, 205, 70, 0.520833) 48.4%, rgba(255, 204, 70, 0) 77.86%);
+    border-radius: 500px
+}
+
+.first_0000_1{
+    width: 50%;
+    height: 280px;
+    margin: 80px auto;
+    background: linear-gradient(90.31deg, rgba(255, 204, 70, 0) 21.84%, rgba(255, 205, 70, 0.520833) 36.72%, #FFCE46 77.86%);
+    border-radius: 500px
+}
+
+.f0{
+    height: 280px;
+    background: rgba(255, 206, 70, 0.1);
+    z-index: 1;
+    border-radius: 500px;
 }
 
 .f00001{
     float: left;
     text-align: center;
-    margin-left: 20%;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .f00002{
-    float: right;
+    float: left;
     text-align: left;
-    margin-right: 30%;
-    margin-top: 30px;
-}
-
-.f00003{
-    width: 72%;
-    margin: 0px auto;
-    border-bottom: 1px dashed black;
+    margin-left: 20px;
 }
 
 .f00004{
     float: right;
-    margin-right: 25%;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
 .f00005{
-    float: left;
+    float: right;
     text-align: left;
-    margin-left: 20%;
-    margin-top: 30px;
+    margin-right: 10px;
 }
 
-.first_3{
-    width: 72%;
-    height: 40px;
-    border-radius: 30px;
-    margin: 80px auto auto auto;
-    color: #ED974A;
+.first_new{
+    width: 80%;
+    height: 500px;
+    background: rgba(255, 186, 65, 0.1);
+    margin: 0px auto;
 }
 
-.first_3 h2{
-    margin-top: 8px;
+.ft{
+    height: 5px;
+}
+
+.first_newi{
+    width: 100%;
+    height: 350px;
+    margin: 50px auto;
+    background: #D9D9D9;
 }
 
 .first_4{
-    width: 72%;
+    width: 4%;
     height: 5px;
-    margin: 20px auto 0px auto;
-    background-color: #ED974A;
+    margin: -15px auto;
+    background-color: #FFCC46;
+    border-radius: 2px;
 }
 
 .first_5{
@@ -223,80 +241,76 @@ body{
 
 }
 
-.first_51, .first_52, .first_53, .first_54, .first_55{
-    margin: 0px 51px auto;
-    background-color: #222222;
-    color: white;
-    width: 120px;
-    height: 38px;
-    padding-top: 10px;
-    border-radius: 20px;
-    float: left;
-}
-
-.first_51:hover, .first_52:hover, .first_53:hover, .first_54:hover, .first_55:hover{
-    background-color: #ED974A;
-}
-
 .first_6{
     margin: 50px auto 0px auto;
     width: 100%;
     height: 720px;
 }
 
-.first_7{
-    width: 72%;
-    height: 40px;
-    margin: 150px auto auto auto;
-    color: #ED974A;
-}
-
-.first_7 h2{
-    margin-top: 6px;
-}
-
-.first_8{
-    width: 72%;
-    height: 5px;
-    margin: 20px auto 0px auto;
-    background-color: #ED974A;
+.catttt{
+    height: 2650px;
+    background-color: #F6F1E3;
+    margin-top: 80px;
 }
 
 .first_9{
     width: 72%;
-    height: 900px;
     margin: 20px auto 0px auto;
     text-align: center;
 }
 
 .first_10{
     width: 72%;
-    height: 300px;
+    height: auto;
     margin: 20px auto 0px auto;
+    position: relative;
+    color: transparent;
 }
 
-.first_10 p{
-    font-weight: bold;
-    cursor: pointer;
-    font-size: large;
-    margin-top: 7px;
+.first_10 h2{
+    margin-top: -50px;
+    padding-left: 5px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    z-index: 1;
 }
 
 .first_101, .first_102, .first_103, .first_104, .first_105, .first_106, .first_107, .first_108, .first_109, .first_1010, .first_1011, .first_1012, .first_1013, .first_1014, .first_1015, .first_1016, .first_1017, .first_1018, .first_1019, .first_1020{
     float: left;
-    background-color: #222222;
-    color: white;
-    width: 120px;
-    height: 38px;
+    width: 30%;
+    height: 335px;
     border-radius: 20px;
     margin: 8px 18px auto;
+    cursor: pointer;
+    background-color: #ffcb467c;
+}
 
+.first_101:hover, .first_102:hover, .first_103:hover, .first_104:hover, .first_105:hover, .first_106:hover, .first_107:hover, .first_108:hover, .first_109:hover, .first_1010:hover, .first_1011:hover, .first_1012:hover, .first_1013:hover, .first_1014:hover, .first_1015:hover, .first_1016:hover, .first_1017:hover, .first_1018:hover, .first_1019:hover, .first_1020:hover{
+    color: black;
+}
+
+.first_101 img:hover, .first_102 img:hover, .first_103 img:hover, .first_104 img:hover, .first_105 img:hover, .first_106 img:hover, .first_107 img:hover, .first_108 img:hover, .first_109 img:hover, .first_1010 img:hover, .first_1011 img:hover, .first_1012 img:hover, .first_1013 img:hover, .first_1014 img:hover, .first_1015 img:hover, .first_1016 img:hover, .first_1017 img:hover, .first_1018 img:hover, .first_1019 img:hover, .first_1020 img:hover{
+    opacity: 0.2;
 }
 
 .comic_1, .comic_2, .comic_3, .comic_4, .comic_5, .comic_6, .comic_7, .comic_8, .comic_9, .comic_10, .comic_11, .comic_12, .comic_13, .comic_14, .comic_15, .comic_16, .comic_17, .comic_18, .comic_19, .comic_20{
     margin-top: 60px;
     margin-left: 35px;
     margin-right: 35px;
+}
+
+dialog{
+    border: none;
+    box-shadow: 0 2px 6px #ccc;
+    border-radius: 10px;
+}
+
+.x{
+    float: right;
+    cursor: pointer;
 }
 
 .left{
@@ -934,7 +948,7 @@ body{
     height: 500px;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #222222;
+    background-color: #FFCE46;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
 }

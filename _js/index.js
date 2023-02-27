@@ -1274,6 +1274,29 @@ $(document).ready(function(){
         p20.style = "background-color:#ED974A;";
     });
 
+    $(".x").click(function(){
+        $(".comic_1").css('display', 'none');
+        $(".comic_2").css('display', 'none');
+        $(".comic_3").css('display', 'none');
+        $(".comic_4").css('display', 'none');
+        $(".comic_5").css('display', 'none');
+        $(".comic_6").css('display', 'none');
+        $(".comic_7").css('display', 'none');
+        $(".comic_8").css('display', 'none');
+        $(".comic_9").css('display', 'none');
+        $(".comic_10").css('display', 'none');
+        $(".comic_11").css('display', 'none');
+        $(".comic_12").css('display', 'none');
+        $(".comic_13").css('display', 'none');
+        $(".comic_14").css('display', 'none');
+        $(".comic_15").css('display', 'none');
+        $(".comic_16").css('display', 'none');
+        $(".comic_17").css('display', 'none');
+        $(".comic_18").css('display', 'none');
+        $(".comic_19").css('display', 'none');
+        $(".comic_20").css('display', 'none');
+    });
+
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50) {
