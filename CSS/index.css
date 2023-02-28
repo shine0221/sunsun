@@ -52,64 +52,30 @@ body{
     left: -10px;
     background-color: #FFCE46;
 }
-.hihi_2{
-    height: 30px;
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto 0 auto;
-    text-align: right;
-    left: -10px;
-    background-color: #FFCE46;
-    display: none;
-}
-.hihi_3{
-    height: 30px;
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto 0 auto;
-    text-align: right;
-    left: -10px;
-    background-color: #FFCE46;
-    display: none;
-}
-.hihi_1 p, .hihi_2 p, .hihi_3 p{
+
+.hihi_1 p{
     display: inline;
     margin: 20px;
     padding: 10px;	
     cursor: pointer;
     font-weight: bolder;
 }
-.first_click, .home_click, .wait_click, .support_click, .join_click, .question_click, .question_click2, .question_click3{
-    border-bottom:3px solid transparent;
-    color: white;
-}
-.first_click:hover, .home_click:hover, .wait_click:hover, .support_click:hover, .join_click:hover, .question_click:hover,.question_click2:hover, .question_click3:hover{
-    border-bottom:3px solid white;
-}
-.contact_click, .contact_click2, .contact_click3{
-    background-color: black;
-    border-radius:20px;
-    color: white;
-}
-.contact_click:hover, .contact_click2:hover, .contact_click3:hover{
-    background-color: white;
-    color: black;
-    border-radius:20px;
-}
+
 .content{
     min-height: 100%;
     width: 81.5%;
     margin: 0px auto;
-    background-color: white;
+    background-color: #F5F5F5;
 }
-.home, .wait, .support, .join, .question, .contact{  
+.adopt, .volunteers, .Question, .home, .wait, .support, .join, .question .contact ,.cooperation{  
     display: none;
 }
 
 .titleee{
     width: 100%;
-    height: 20.3%;
+    height: 1150px;
     background-color: #FFCE46;
+    position: relative;
 }
 
 .first_12{
@@ -119,20 +85,69 @@ body{
 }
 
 .first_1{
+    position: absolute;
     float: left;
     cursor: pointer;
-    margin: 10% 300px auto 350px;
+    margin-top: 10%;
+    margin-left: 62%;
 }
 
 .first_2{
+    position: absolute;
     float: left;
     cursor: pointer;
-    margin: 10% auto;
+    margin: 10% auto 0px 22%;
+}
+
+.first_1 p, .first_2 p{
+    background: #D9D9D9;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    color: black;
+    filter: drop-shadow(0px 5px 0px #000000);
+    height: 40px;
+    padding-top: 10px;
+    width: 200px;
+}
+
+.first_1 p:hover, .first_2 p:hover{
+    background: white;
 }
 
 .title_1{
+    position: absolute;
     text-align: center;
-    margin: 0px auto auto 50px;
+    margin: 320px auto auto 50px;
+    height: 100%;
+}
+
+.title_2{
+    position: relative;
+    float: left;
+    margin-left: -50%;
+    margin-top: -5%;
+    height: 100%;
+}
+
+.title_3{
+    position: relative;
+    float: right;
+    margin-top: -5%;
+    margin-right: -45%;
+    height: 100%;
+}
+
+.title_4{
+    position: relative;
+    float: left;
+    margin-top: -60%;
+    margin-left: -80%;
     height: 100%;
 }
 
@@ -202,7 +217,7 @@ body{
 }
 
 .first_new{
-    width: 80%;
+    width: 100%;
     height: 500px;
     background: rgba(255, 186, 65, 0.1);
     margin: 0px auto;
@@ -248,8 +263,9 @@ body{
 }
 
 .catttt{
-    height: 2650px;
     background-color: #F6F1E3;
+    position: relative;
+    height: 2500px;
     margin-top: 80px;
 }
 
@@ -261,9 +277,7 @@ body{
 
 .first_10{
     width: 72%;
-    height: auto;
     margin: 20px auto 0px auto;
-    position: relative;
     color: transparent;
 }
 
@@ -330,6 +344,34 @@ dialog{
     cursor: pointer;
 }
 
+.volunteers_hj{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+}
+
+.volunteers_hj p{
+    position: relative;
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #22222288;
+    top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.home_click:hover, .join_click:hover{
+    color: #000;
+}
+
 .home_1{
     margin: 80px auto;
     width: 72%;
@@ -342,7 +384,7 @@ dialog{
     background-color: white;
     border: black 3px solid;
     border-radius: 30px;
-    margin: 170px auto auto auto;
+    margin: 50px auto auto auto;
     cursor: pointer;
     text-align: center;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
@@ -452,6 +494,34 @@ dialog{
     margin: 0px auto;
 }
 
+.adpot_ws{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+}
+
+.adpot_ws p{
+    position: relative;
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #22222288;
+    top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.wait_click:hover, .support_click:hover{
+    color: #000;
+}
+
 .wait_1{
     height: 250px;
     margin: 0;
@@ -471,9 +541,9 @@ dialog{
 .wait_2{
     height: 30px;
     width: 80%;
-    padding-top: 170px;
+    padding-top: 50px;
     margin: 0px auto;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 .choose{
@@ -609,7 +679,7 @@ dialog{
 .join_3{
     width: 80%;
     margin: 0px auto;
-    padding-top: 170px;
+    padding-top: 50px;
 }
 
 .a, .b, .c, .d{
@@ -659,6 +729,34 @@ dialog{
     border-radius: 10px;
 }
 
+.Question_qcc{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+}
+
+.Question_qcc p{
+    position: relative;
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #22222288;
+    top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.question_click:hover, .contact_click:hover, .cooperation_click:hover{
+    color: #000;
+}
+
 .question_1, .contact_1{
     height: 250px;
     margin: 0;
@@ -674,18 +772,18 @@ dialog{
     top: 300px;
 }
 
-.question_2{
+.question{
     width: 72%;
     height: 800px;
     margin: 0px auto;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .contact_2{
     width: 72%;
     height: 1500px;
     margin: 0px auto;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .QA{
