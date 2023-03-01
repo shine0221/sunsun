@@ -11,6 +11,49 @@ body{
     grid-template-rows: 1fr auto;
     background-color: #FFCE46;
 }
+
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .back-top {
     z-index: 99999;
     position: fixed;
@@ -44,7 +87,7 @@ body{
 }
   
 .hihi_1{
-    height: 30px;
+    height: 50px;
     width: 100%;
     padding: 20px;
     margin: 0 auto 0 auto;
@@ -56,9 +99,17 @@ body{
 .hihi_1 p{
     display: inline;
     margin: 20px;
-    padding: 10px;	
+    padding: 10px;
+    top: -10px;	
     cursor: pointer;
     font-weight: bolder;
+    font-size: larger;
+    color: #00000083;
+    position: relative;
+}
+
+.hihi_1 p:hover{
+    color: #000;
 }
 
 .content{
@@ -88,15 +139,14 @@ body{
     position: absolute;
     float: left;
     cursor: pointer;
-    margin-top: 10%;
-    margin-left: 62%;
+    margin-top: 8%;
 }
 
 .first_2{
     position: absolute;
     float: left;
     cursor: pointer;
-    margin: 10% auto 0px 22%;
+    margin-top: 8%;
 }
 
 .first_1 p, .first_2 p{
@@ -106,14 +156,14 @@ body{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
     letter-spacing: 0.2em;
     color: black;
     filter: drop-shadow(0px 5px 0px #000000);
-    height: 40px;
-    padding-top: 10px;
-    width: 200px;
+    padding-top: 8px;
+    width: 250px;
+    height: 50px;
 }
 
 .first_1 p:hover, .first_2 p:hover{
@@ -525,9 +575,7 @@ dialog{
 .wait_1{
     height: 250px;
     margin: 0;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
-    background-color: transparent;
+    background-color: #FFCE46;
 }
 
 .wait_1 p{
@@ -666,6 +714,7 @@ dialog{
 .join_1{
     height: 250px;
     margin: 0 auto;
+    background-color: #FFCE46;
 }
 
 .join_1 p{
@@ -760,8 +809,7 @@ dialog{
 .question_1, .contact_1{
     height: 250px;
     margin: 0;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
+    background-color: #FFCE46;
 }
 
 .question_1 p, .contact_1 p{
