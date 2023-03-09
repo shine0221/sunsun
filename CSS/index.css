@@ -99,15 +99,15 @@ p {
 .hihi_1 p{
     display: inline;
     margin-top: 20px;
-    margin-right: 40px;
-    padding: 10px;
+    margin-right: 60px;
+    padding: 10px 0 10px 0;
     top: -10px;	
     cursor: pointer;
     font-weight: 700;
     font-size: 24px;
-    color: #656565;
     position: relative;
     font-family: 'Inter';
+    width: 105px;
     
 }
 
@@ -115,11 +115,16 @@ p {
     color: #222222;
 }
 
+.adopt_click, .volunteers_click{
+    border-bottom: 3px solid transparent;
+    color: #656565;
+}
+
 .content{
     min-height: 100%;
     width: 81.5%;
     margin: 0px auto;
-    background-color: #F5F5F5;
+    background: #FFFFFF;
 }
 .adopt, .volunteers, .Question, .home, .wait, .support, .join, .question .contact ,.cooperation{  
     display: none;
@@ -337,20 +342,6 @@ p {
     border-radius: 2px;
 }
 
-.first_5{
-    margin: 20px auto;
-    text-align: center;
-    width: 72%;
-}
-
-.first_5 p{
-    display: inline;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: large;
-
-}
-
 .first_6{
     margin: 50px auto 0px auto;
     width: 100%;
@@ -454,7 +445,6 @@ dialog{
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.1em;
-    color: #22222288;
     top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -463,6 +453,18 @@ dialog{
 
 .home_click:hover, .join_click:hover{
     color: #000;
+}
+
+.home_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid #222222;
+    color: #222222;
+}
+
+.join_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid transparent;
+    color: #656565;
 }
 
 .home_1{
@@ -614,7 +616,6 @@ dialog{
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.1em;
-    color: #22222288;
     top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -623,6 +624,18 @@ dialog{
 
 .wait_click:hover, .support_click:hover{
     color: #000;
+}
+
+.wait_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid #222222;
+    color: #222222;
+}
+
+.support_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid transparent;
+    color: #656565;
 }
 
 .wait_1{
@@ -644,110 +657,145 @@ dialog{
     width: 80%;
     padding-top: 50px;
     margin: 0px auto;
-    background-color: #F5F5F5;
+    background: #FFFFFF;
 }
 
 .choose{
-    width: 200px;
+    width: 230px;
     float: left;
-    margin-top: 10px;
+}
+
+.choose h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.choose p{
+    display: inline;
+    background: #FFFFFF;
+    border: 2px solid #FE9154;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FE9154;
+    padding: 5px 9px 5px 9px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
-.choose_11, .choose_22, .choose_33, .choose_44{
-    margin-bottom: 20px;
-    margin-left: 10px;
-    display: none;
+.choose p:hover{
+    background: #FE9154;
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
 .cat{
-    width: 930px;
-    height: 800px;
+    width: 960px;
+    height: 1500px;
     margin: 10px 0 0 50px;
     border-radius:20px;
     float: left;
 }
 
 .cat_1{
-    width: 200px;
-    height: 315px;
-    border-radius: 10px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
     float: left;
-    margin-left: 30px;
-}
-
-.cat_1_bg{
-    width: 200px;
-    height: 10px;
-    background-color: #36538A;
-    border-radius: 10px 10px 0 0;
-}
-
-.cat_1 h2{
-    margin-top: 0px;
+    width: 300px;
+    height: 352px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #222222;
 }
 
 .cat_1 p{
-    margin-top: -20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    margin-top: 15px;
 }
 
-.cat_1_gohome{
-    width: 110px;
-    height: 40px;
-    border-radius: 20px;
-    margin: 0px auto;
-    background-color: #ED974A;
-    margin-top: -15px;
-    cursor: pointer;
-}
-
-.cat_1_gohome h4{
-    color: white;
-    padding-top: 8px;
+.cat_1:hover{
+    background: #FE9154;
+    color: #FFFFFF;
 }
 
 .cat_2{
-    width: 200px;
-    height: 315px;
+    position: absolute;
+    margin-top: -214px;
+    text-align: left;
+    z-index: 99;
+    padding-left: 8px;
+    margin-left: 8px;
+    width: 285px;
+    opacity: 0;
+    border-radius: 0px 0px 9px 9px;
+    transition-duration: 0.5s;
+}
+
+.cat_2 h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.le{
+    border: 3px solid #FE9154;
     border-radius: 10px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.411);
-    float: left;
-    margin-left: 30px;
+    width: 67px;
+    margin-bottom: 10px;
 }
 
-.cat_2_bg{
-    width: 200px;
-    height: 10px;
-    background-color: #E57373;
-    border-radius: 10px 10px 0 0;
+.cat_2 h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 
-.cat_2 h2{
+.cat_2_1{
+    position: absolute;
+    width: 285px;
+    height: 352px;
+    margin-left: -8px;
+    margin-top: -152px;
+    padding-bottom: 52px;
+    padding-top: 152px;
+}
+
+.cat_2_2{
+    position: absolute;
+    width: 285px;
     margin-top: 0px;
+    margin-left: -8px;
+    padding-left: 8px;
+    border-radius: 0px 0px 9px 9px;
+    background: linear-gradient(360deg, rgba(34, 34, 34, 0.8) 26.64%, rgba(34, 34, 34, 0) 94.08%);
 }
 
-.cat_2 p{
-    margin-top: -20px;
-}
-
-.cat_2_gohome{
-    width: 110px;
-    height: 40px;
-    border-radius: 20px;
-    margin: 0px auto;
-    background-color: #ED974A;
-    margin-top: -15px;
-    cursor: pointer;
-}
-
-.cat_2_gohome h4{
-    color: white;
-    padding-top: 8px;
+.cat_2:hover{
+    opacity: 1;
 }
 
 .item_1{

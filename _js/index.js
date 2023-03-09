@@ -12,6 +12,18 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#656565";
+        ac.style.borderBottom = "3px solid transparent";
+        vc.style.color = "#222222";
+        vc.style.borderBottom = "3px solid #222222";
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
     });
     $(".first_2").click(function(){
         $(".first").css('display', 'none');
@@ -26,15 +38,31 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#222222";
+        ac.style.borderBottom = "3px solid #222222";
+        vc.style.color = "#656565";
+        vc.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#222222";
+        t3.style.borderBottom = "3px solid #222222";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
     });
-/*
-    var t1 = document.querySelector('.first_click');
-    var t2 = document.querySelector('.home_click');
+
+    var t1 = document.querySelector('.home_click');
+    var t2 = document.querySelector('.join_click');
     var t3 = document.querySelector('.wait_click');
     var t4 = document.querySelector('.support_click');
-    var t5 = document.querySelector('.join_click');
+    var t5 = document.querySelector('.question_click');
+    var t6 = document.querySelector('.contact_click');
+    var t7 = document.querySelector('.cooperation_click');
 
-*/
+    var ac = document.querySelector('.adopt_click');
+    var vc = document.querySelector('.volunteers_click');
+
     $(".first_click").click(function(){
         $(".first").css('display', 'block');
         $(".titleee").css('display', 'block');
@@ -48,6 +76,10 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#656565";
+        ac.style.borderBottom = "3px solid transparent";
+        vc.style.color = "#656565";
+        vc.style.borderBottom = "3px solid transparent";
     });
 
     $(".adopt_click").click(function(){
@@ -63,6 +95,18 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#222222";
+        ac.style.borderBottom = "3px solid #222222";
+        vc.style.color = "#656565";
+        vc.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#222222";
+        t3.style.borderBottom = "3px solid #222222";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
     });
 
     $(".volunteers_click").click(function(){
@@ -78,6 +122,18 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#656565";
+        ac.style.borderBottom = "3px solid transparent";
+        vc.style.color = "#222222";
+        vc.style.borderBottom = "3px solid #222222";
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
     });
 
     $(".Question_click").click(function(){
@@ -93,6 +149,10 @@ $(document).ready(function(){
         $(".question").css('display', 'block');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        ac.style.color = "#656565";
+        ac.style.borderBottom = "3px solid transparent";
+        vc.style.color = "#656565";
+        vc.style.borderBottom = "3px solid transparent";
     });
 
     $(".home_click").click(function(){
@@ -108,6 +168,14 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
     });
     $(".join_click").click(function(){
         $(".first").css('display', 'none');
@@ -122,6 +190,14 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#222222";
+        t2.style.borderBottom = "3px solid #222222";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
     });
     $(".wait_click").click(function(){
         $(".first").css('display', 'none');
@@ -136,6 +212,14 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        t3.style.color = "#222222";
+        t3.style.borderBottom = "3px solid #222222";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
     });
     $(".support_click").click(function(){
         $(".first").css('display', 'none');
@@ -150,6 +234,14 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#222222";
+        t4.style.borderBottom = "3px solid #222222";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
     });
     $(".question_click").click(function(){
         $(".first").css('display', 'none');
@@ -164,6 +256,12 @@ $(document).ready(function(){
         $(".question").css('display', 'block');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        t5.style.color = "#222222";
+        t5.style.borderBottom = "3px solid #222222";
+        t6.style.color = "#656565";
+        t6.style.borderBottom = "3px solid transparent";
+        t7.style.color = "#656565";
+        t7.style.borderBottom = "3px solid transparent";
     });
     $(".contact_click").click(function(){
         $(".first").css('display', 'none');
@@ -314,20 +412,6 @@ $(document).ready(function(){
         q5.style.color = "black";
         $(".Q_5").css('display', 'block');
         $(".Q_55").css('display', 'none');
-    });
-
-    $('.choose_1').click(function(){
-        $('.choose_11').toggle();
-    });
-    $('.choose_2').click(function(){
-        $('.choose_22').toggle();
-    });
-    $('.choose_3').click(function(){
-        $('.choose_33').toggle();
-    });
-
-    $('.choose_4').click(function(){
-        $('.choose_44').toggle();
     });
 
     $(".first_101").click(function(){
