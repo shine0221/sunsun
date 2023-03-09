@@ -153,6 +153,12 @@ $(document).ready(function(){
         ac.style.borderBottom = "3px solid transparent";
         vc.style.color = "#656565";
         vc.style.borderBottom = "3px solid transparent";
+        t5.style.color = "#222222";
+        t5.style.borderBottom = "3px solid #222222";
+        t6.style.color = "#656565";
+        t6.style.borderBottom = "3px solid transparent";
+        t7.style.color = "#656565";
+        t7.style.borderBottom = "3px solid transparent";
     });
 
     $(".home_click").click(function(){
@@ -276,6 +282,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'block');
         $(".cooperation").css('display', 'none');
+        t6.style.color = "#222222";
+        t6.style.borderBottom = "3px solid #222222";
+        t5.style.color = "#656565";
+        t5.style.borderBottom = "3px solid transparent";
+        t7.style.color = "#656565";
+        t7.style.borderBottom = "3px solid transparent";
     });
     $(".cooperation_click").click(function(){
         $(".first").css('display', 'none');
@@ -290,6 +302,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'block');
+        t7.style.color = "#222222";
+        t7.style.borderBottom = "3px solid #222222";
+        t6.style.color = "#656565";
+        t6.style.borderBottom = "3px solid transparent";
+        t5.style.color = "#656565";
+        t5.style.borderBottom = "3px solid transparent";
     });
 
     var a1 = document.querySelector('.a');

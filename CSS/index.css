@@ -881,7 +881,6 @@ dialog{
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.1em;
-    color: #22222288;
     top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -890,6 +889,24 @@ dialog{
 
 .question_click:hover, .contact_click:hover, .cooperation_click:hover{
     color: #000;
+}
+
+.question_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid #222222;
+    color: #222222;
+}
+
+.contact_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid transparent;
+    color: #656565;
+}
+
+.cooperation_click{
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid transparent;
+    color: #656565;
 }
 
 .question_1, .contact_1{
