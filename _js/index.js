@@ -249,6 +249,21 @@ $(document).ready(function(){
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
     });
+    $(".cat_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'none');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'block');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+    });
     $(".question_click").click(function(){
         $(".first").css('display', 'none');
         $(".titleee").css('display', 'none');
