@@ -124,7 +124,7 @@ p {
     min-height: 100%;
     width: 81.5%;
     margin: 0px auto;
-    background: #FFFFFF;
+    background: #F5F5F5;
 }
 .adopt, .volunteers, .Question, .home, .wait, .support, .join, .question .contact ,.cooperation{  
     display: none;
@@ -653,11 +653,11 @@ dialog{
 }
 
 .wait_2{
-    height: 30px;
-    width: 80%;
+    height: 1500px;
+    width: 90%;
     padding-top: 50px;
-    margin: 0px auto;
-    background: #FFFFFF;
+    margin: 0px auto auto 130px;
+    background: #F5F5F5;
 }
 
 .choose{
@@ -697,11 +697,12 @@ dialog{
 }
 
 .cat{
-    width: 960px;
-    height: 1500px;
+    width: 980px;
+    height: 1000px;
     margin: 10px 0 0 50px;
     border-radius:20px;
     float: left;
+    overflow:auto;
 }
 
 .cat_1{
@@ -831,6 +832,7 @@ dialog{
     margin: 0px auto;
     padding-top: 40px;
     width: 80%;
+    background-color: #F5F5F5;
 }
 
 .a, .b, .c, .d{
