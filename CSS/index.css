@@ -900,6 +900,7 @@ dialog{
     border-radius: 10px;
     background: #FECD67;
     position: relative;
+    margin-right: 20px;
 }
 
 .con_2{
@@ -911,6 +912,7 @@ dialog{
     line-height: 24px;
     letter-spacing: 0.1em;
     color: #222222;
+    margin-right: 20px;
 }
 
 .item_1{
