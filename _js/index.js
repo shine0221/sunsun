@@ -8,6 +8,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -34,6 +35,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'block');
         $(".wait").css('display', 'block');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -72,6 +74,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -91,6 +94,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'block');
         $(".wait").css('display', 'block');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -118,6 +122,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -145,6 +150,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'block');
         $(".question").css('display', 'block');
         $(".contact").css('display', 'none');
@@ -170,6 +176,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -192,6 +199,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -214,6 +222,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'block');
         $(".wait").css('display', 'block');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -236,6 +245,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'block');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'block');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'none');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -249,21 +259,6 @@ $(document).ready(function(){
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
     });
-    $(".cat_1").click(function(){
-        $(".first").css('display', 'none');
-        $(".titleee").css('display', 'none');
-        $(".volunteers").css('display', 'none');
-        $(".home").css('display', 'none');
-        $(".join").css('display', 'none');
-        $(".adopt").css('display', 'none');
-        $(".wait").css('display', 'none');
-        $(".support").css('display', 'none');
-        $(".introduce").css('display', 'block');
-        $(".Question").css('display', 'none');
-        $(".question").css('display', 'none');
-        $(".contact").css('display', 'none');
-        $(".cooperation").css('display', 'none');
-    });
     $(".question_click").click(function(){
         $(".first").css('display', 'none');
         $(".titleee").css('display', 'none');
@@ -273,6 +268,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'block');
         $(".question").css('display', 'block');
         $(".contact").css('display', 'none');
@@ -293,6 +289,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'block');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'block');
@@ -313,6 +310,7 @@ $(document).ready(function(){
         $(".adopt").css('display', 'none');
         $(".wait").css('display', 'none');
         $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
         $(".Question").css('display', 'block');
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
@@ -323,6 +321,22 @@ $(document).ready(function(){
         t6.style.borderBottom = "3px solid transparent";
         t5.style.color = "#656565";
         t5.style.borderBottom = "3px solid transparent";
+    });
+
+    $(".cat_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'none');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'block');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
     });
 
     var a1 = document.querySelector('.a');
