@@ -447,471 +447,6 @@ $(document).ready(function(){
         $(".Q_55").css('display', 'none');
     });
 
-    $(".first_101").click(function(){
-        $(".comic_1").css('display', 'block');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_102").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'block');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_103").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'block');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_104").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'block');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_105").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'block');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_106").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'block');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_107").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'block');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_108").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'block');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_109").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'block');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1010").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'block');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1011").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'block');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1012").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'block');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1013").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'block');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1014").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'block');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1015").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'block');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1016").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'block');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1017").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'block');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1018").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'block');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1019").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'block');
-        $(".comic_20").css('display', 'none');
-    });
-    $(".first_1020").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'block');
-    });
-
-    $(".x").click(function(){
-        $(".comic_1").css('display', 'none');
-        $(".comic_2").css('display', 'none');
-        $(".comic_3").css('display', 'none');
-        $(".comic_4").css('display', 'none');
-        $(".comic_5").css('display', 'none');
-        $(".comic_6").css('display', 'none');
-        $(".comic_7").css('display', 'none');
-        $(".comic_8").css('display', 'none');
-        $(".comic_9").css('display', 'none');
-        $(".comic_10").css('display', 'none');
-        $(".comic_11").css('display', 'none');
-        $(".comic_12").css('display', 'none');
-        $(".comic_13").css('display', 'none');
-        $(".comic_14").css('display', 'none');
-        $(".comic_15").css('display', 'none');
-        $(".comic_16").css('display', 'none');
-        $(".comic_17").css('display', 'none');
-        $(".comic_18").css('display', 'none');
-        $(".comic_19").css('display', 'none');
-        $(".comic_20").css('display', 'none');
-    });
-
-
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50) {
           if ($(".back-top").hasClass("hide")) {
@@ -930,6 +465,76 @@ $(document).ready(function(){
           500 
         );
       });
+
+    const cat1 = document.getElementById('c1p');
+    const cat2 = document.getElementById('c2p');
+    const cat3 = document.getElementById('c3p');
+    const cat4 = document.getElementById('c4p');
+    const cat5 = document.getElementById('c5p');
+    const cat6 = document.getElementById('c6p');
+    const cat7 = document.getElementById('c7p');
+    const cat8 = document.getElementById('c8p');
+    let index = 0;
+    let index2 = 0;
+    let index3 = 0;
+    let index4 = 0;
+    let index5 = 0;
+    let index6 = 0;
+    let index7 = 0;
+    let index8 = 0;
+
+    const colors1 = ['#FFFFFF', '#FE9154'];
+    const colors2 = ['#FE9154', '#FFFFFF'];
+
+    $('#c1p').click(function(){
+        cat1.style.color = colors1[index];
+        cat1.style.backgroundColor = colors2[index];
+
+        index = index >= colors1.length - 1 ? 0 : index + 1;
+    });
+    $('#c2p').click(function(){
+        cat2.style.color = colors1[index2];
+        cat2.style.backgroundColor = colors2[index2];
+
+        index2 = index2 >= colors1.length - 1 ? 0 : index2 + 1;
+    });
+    $('#c3p').click(function(){
+        cat3.style.color = colors1[index3];
+        cat3.style.backgroundColor = colors2[index3];
+
+        index3 = index3 >= colors1.length - 1 ? 0 : index3 + 1;
+    });
+    $('#c4p').click(function(){
+        cat4.style.color = colors1[index4];
+        cat4.style.backgroundColor = colors2[index4];
+
+        index4 = index4 >= colors1.length - 1 ? 0 : index4 + 1;
+    });
+    $('#c5p').click(function(){
+        cat5.style.color = colors1[index5];
+        cat5.style.backgroundColor = colors2[index5];
+
+        index5 = index5 >= colors1.length - 1 ? 0 : index5 + 1;
+    });
+    $('#c6p').click(function(){
+        cat6.style.color = colors1[index6];
+        cat6.style.backgroundColor = colors2[index6];
+
+        index6 = index6 >= colors1.length - 1 ? 0 : index6 + 1;
+    });
+    $('#c7p').click(function(){
+        cat7.style.color = colors1[index7];
+        cat7.style.backgroundColor = colors2[index7];
+
+        index7 = index7 >= colors1.length - 1 ? 0 : index7 + 1;
+    });
+    $('#c8p').click(function(){
+        cat8.style.color = colors1[index8];
+        cat8.style.backgroundColor = colors2[index8];
+
+        index8 = index8 >= colors1.length - 1 ? 0 : index8 + 1;
+    });
+
 
       /*var how1 = document.querySelector('#how1');
       var how11 = document.querySelector('#how11');
@@ -1005,7 +610,7 @@ function change1(){
     else if(x = 5){
         x=1;
         document.getElementById("photo_1").src="/photo/1-"+x+".jpg";
-    }
+    }   
 }
 function change1l(){
     if(x > 1){

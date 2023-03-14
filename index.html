@@ -115,7 +115,7 @@
                     <div class="first_4"></div>
                 </div>
                 <div class="first_newi">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="/photo/example.JPG" class="d-block w-100" alt="..." style="height: 650px;">
@@ -128,11 +128,11 @@
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="carousel-control-prev-icon l" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="carousel-control-next-icon r" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
@@ -142,7 +142,7 @@
                 <h1>影片欣賞</h1>
             </div>
             <div class="first_4"></div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -166,11 +166,11 @@
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #FEC8AA; border-radius: 10px;"></span>
+                  <span class="carousel-control-prev-icon l" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #FEC8AA; border-radius: 10px;"></span>
+                  <span class="carousel-control-next-icon r" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
@@ -182,204 +182,444 @@
                 <div class="first_10">
                     <div class="first_101">
                         <img src="/photo/1-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>白白↗<h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            白白
+                        </button>
                     </div>
-                    <dialog class="comic_1" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change1l()">
-                        <img class="center" id="photo_1" src="/photo/1-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change1()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/1-1.jpg" alt="" width="100%">
+                                <img src="/photo/1-2.jpg" alt="" width="100%">
+                                <img src="/photo/1-3.jpg" alt="" width="100%">
+                                <img src="/photo/1-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_102">
                         <img src="/photo/2-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>小黑↗<h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            小黑
+                        </button>
                     </div>
-                    <dialog class="comic_2" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change2l()">
-                        <img class="center" id="photo_2" src="/photo/2-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change2()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/2-1.jpg" alt="" width="100%">
+                                <img src="/photo/2-2.jpg" alt="" width="100%">
+                                <img src="/photo/2-3.jpg" alt="" width="100%">
+                                <img src="/photo/2-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_103">
                         <img src="/photo/3-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>泰國↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            泰國
+                        </button>
                     </div>
-                    <dialog class="comic_3" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change3l()">
-                        <img class="center" id="photo_3" src="/photo/3-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change3()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/3-1.jpg" alt="" width="100%">
+                                <img src="/photo/3-2.jpg" alt="" width="100%">
+                                <img src="/photo/3-3.jpg" alt="" width="100%">
+                                <img src="/photo/3-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_104">
                         <img src="/photo/4-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>大橘貓↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            大橘貓
+                        </button>
                     </div>
-                    <dialog class="comic_4" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change4l()">
-                        <img class="center" id="photo_4" src="/photo/4-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change4()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/4-1.jpg" alt="" width="100%">
+                                <img src="/photo/4-2.jpg" alt="" width="100%">
+                                <img src="/photo/4-3.jpg" alt="" width="100%">
+                                <img src="/photo/4-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_105">
                         <img src="/photo/5-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>愛吃鬼↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            愛吃鬼
+                        </button>
                     </div>
-                    <dialog class="comic_5" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change5l()">
-                        <img class="center" id="photo_5" src="/photo/5-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change5()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/5-1.jpg" alt="" width="100%">
+                                <img src="/photo/5-2.jpg" alt="" width="100%">
+                                <img src="/photo/5-3.jpg" alt="" width="100%">
+                                <img src="/photo/5-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_106">
                         <img src="/photo/6-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>咪喵↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            咪喵
+                        </button>
                     </div>
-                    <dialog class="comic_6" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change6l()">
-                        <img class="center" id="photo_6" src="/photo/6-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change6()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/6-1.jpg" alt="" width="100%">
+                                <img src="/photo/6-2.jpg" alt="" width="100%">
+                                <img src="/photo/6-3.jpg" alt="" width="100%">
+                                <img src="/photo/6-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_107">
                         <img src="/photo/7-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>小美↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                            小美
+                        </button>
                     </div>
-                    <dialog class="comic_7" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change7l()">
-                        <img class="center" id="photo_7" src="/photo/7-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change7()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/7-1.jpg" alt="" width="100%">
+                                <img src="/photo/7-2.jpg" alt="" width="100%">
+                                <img src="/photo/7-3.jpg" alt="" width="100%">
+                                <img src="/photo/7-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_108">
                         <img src="/photo/8-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>小金↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                            小金
+                        </button>
                     </div>
-                    <dialog class="comic_8" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change8l()">
-                        <img class="center" id="photo_8" src="/photo/8-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change8()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/8-1.jpg" alt="" width="100%">
+                                <img src="/photo/8-2.jpg" alt="" width="100%">
+                                <img src="/photo/8-3.jpg" alt="" width="100%">
+                                <img src="/photo/8-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_109">
                         <img src="/photo/9-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>加菲貓↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                            加菲貓
+                        </button>
                     </div>
-                    <dialog class="comic_9" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change9l()">
-                        <img class="center" id="photo_9" src="/photo/9-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change9()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/9-1.jpg" alt="" width="100%">
+                                <img src="/photo/9-2.jpg" alt="" width="100%">
+                                <img src="/photo/9-3.jpg" alt="" width="100%">
+                                <img src="/photo/9-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1010">
                         <img src="/photo/10-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>大嗓門↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                            大嗓門
+                        </button>
                     </div>
-                    <dialog class="comic_10" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change10l()">
-                        <img class="center" id="photo_10" src="/photo/10-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change10()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/10-1.jpg" alt="" width="100%">
+                                <img src="/photo/10-2.jpg" alt="" width="100%">
+                                <img src="/photo/10-3.jpg" alt="" width="100%">
+                                <img src="/photo/10-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1011">
                         <img src="/photo/11-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>長尾三花↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                            長尾三花
+                        </button>
                     </div>
-                    <dialog class="comic_11" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change11l()">
-                        <img class="center" id="photo_11" src="/photo/11-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change11()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/11-1.jpg" alt="" width="100%">
+                                <img src="/photo/11-2.jpg" alt="" width="100%">
+                                <img src="/photo/11-3.jpg" alt="" width="100%">
+                                <img src="/photo/11-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1012">
                         <img src="/photo/12-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>美短媽媽↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                            美短媽媽
+                        </button>
                     </div>
-                    <dialog class="comic_12" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change12l()">
-                        <img class="center" id="photo_12" src="/photo/12-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change12()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/12-1.jpg" alt="" width="100%">
+                                <img src="/photo/12-2.jpg" alt="" width="100%">
+                                <img src="/photo/12-3.jpg" alt="" width="100%">
+                                <img src="/photo/12-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1013">
                         <img src="/photo/13-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>燒餅↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                            燒餅
+                        </button>
                     </div>
-                    <dialog class="comic_13" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change13l()">
-                        <img class="center" id="photo_13" src="/photo/13-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change13()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/13-1.jpg" alt="" width="100%">
+                                <img src="/photo/13-2.jpg" alt="" width="100%">
+                                <img src="/photo/13-3.jpg" alt="" width="100%">
+                                <img src="/photo/13-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1014">
                         <img src="/photo/14-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>油條↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                            油條
+                        </button>
                     </div>
-                    <dialog class="comic_14" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change14l()">
-                        <img class="center" id="photo_14" src="/photo/14-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change14()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/14-1.jpg" alt="" width="100%">
+                                <img src="/photo/14-2.jpg" alt="" width="100%">
+                                <img src="/photo/14-3.jpg" alt="" width="100%">
+                                <img src="/photo/14-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1015">
                         <img src="/photo/15-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>迷你虎↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                            迷你虎
+                        </button>
                     </div>
-                    <dialog class="comic_15" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change15l()">
-                        <img class="center" id="photo_15" src="/photo/15-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change15()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/15-1.jpg" alt="" width="100%">
+                                <img src="/photo/15-2.jpg" alt="" width="100%">
+                                <img src="/photo/15-3.jpg" alt="" width="100%">
+                                <img src="/photo/15-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1016">
                         <img src="/photo/16-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>大叔↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                            大叔
+                        </button>
                     </div>
-                    <dialog class="comic_16" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change16l()">
-                        <img class="center" id="photo_16" src="/photo/16-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change16()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/16-1.jpg" alt="" width="100%">
+                                <img src="/photo/16-2.jpg" alt="" width="100%">
+                                <img src="/photo/16-3.jpg" alt="" width="100%">
+                                <img src="/photo/16-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1017">
                         <img src="/photo/17-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>小豹貓↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+                            小豹貓
+                        </button>
                     </div>
-                    <dialog class="comic_17" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change17l()">
-                        <img class="center" id="photo_17" src="/photo/17-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change17()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/17-1.jpg" alt="" width="100%">
+                                <img src="/photo/17-2.jpg" alt="" width="100%">
+                                <img src="/photo/17-3.jpg" alt="" width="100%">
+                                <img src="/photo/17-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1018">
                         <img src="/photo/18-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>康茉莉↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+                            康茉莉
+                        </button>
                     </div>
-                    <dialog class="comic_18" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change18l()">
-                        <img class="center" id="photo_18" src="/photo/18-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change18()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/18-1.jpg" alt="" width="100%">
+                                <img src="/photo/18-2.jpg" alt="" width="100%">
+                                <img src="/photo/18-3.jpg" alt="" width="100%">
+                                <img src="/photo/18-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1019">
                         <img src="/photo/19-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>開門媽媽↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+                            開門媽媽
+                        </button>
                     </div>
-                    <dialog class="comic_19" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change19l()">
-                        <img class="center" id="photo_19" src="/photo/19-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change19()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/19-1.jpg" alt="" width="100%">
+                                <img src="/photo/19-2.jpg" alt="" width="100%">
+                                <img src="/photo/19-3.jpg" alt="" width="100%">
+                                <img src="/photo/19-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <div class="first_1020">
                         <img src="/photo/20-1.jpg" width="100%" style="border-radius: 20px;">
-                        <h2>夏小花↗</h2>
+                        <button type="button" class="c_1" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+                            夏小花
+                        </button>
                     </div>
-                    <dialog class="comic_20" style="display: none;">
-                        <div class="x">X</div>
-                        <img class="left" src="/photo/left.png" alt="" onclick="change20l()">
-                        <img class="center" id="photo_20" src="/photo/20-1.jpg" width="80%" style="border-radius: 20px; box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);">
-                        <img class="right" src="/photo/right.png" alt="" onclick="change20()">
-                    </dialog>
+                    <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <img src="/photo/20-1.jpg" alt="" width="100%">
+                                <img src="/photo/20-2.jpg" alt="" width="100%">
+                                <img src="/photo/20-3.jpg" alt="" width="100%">
+                                <img src="/photo/20-4.jpg" alt="" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -404,8 +644,8 @@
                                 <h3>性別</h3>
                             </div>
                             <div class="choose_11">
-                                <p>底迪</p>
-                                <p>美眉</p>
+                                <p class="selection" id="c1p">底迪</p>
+                                <p class="selection" id="c2p">美眉</p>
                             </div>
                         </div>
                         <div class="choose_two">
@@ -413,8 +653,8 @@
                                 <h3>年齡</h3>
                             </div>
                             <div class="choose_22">
-                                <p>幼貓</p>
-                                <p>成貓</p>
+                                <p class="selection" id="c3p">幼貓</p>
+                                <p class="selection" id="c4p">成貓</p>
                             </div>
                         </div>
                         <div class="choose_three">
@@ -422,8 +662,8 @@
                                 <h3>親近</h3>
                             </div>
                             <div class="choose_33">
-                                <p>親人</p>
-                                <p>親貓</p>
+                                <p class="selection" id="c5p">親人</p>
+                                <p class="selection" id="c6p">親貓</p>
                             </div>
                         </div>
                         <div class="choose_four">
@@ -431,18 +671,18 @@
                                 <h3>狀態</h3>
                             </div>
                             <div class="choose_44">
-                                <p>可認養</p>
-                                <p>訓練中</p>
+                                <p class="selection" id="c7p">可認養</p>
+                                <p class="selection" id="c8p">訓練中</p>
                             </div>
                         </div>
                     </div>
                     <div class="cat">
-                        <div class="cat_1" id="aaaaaa">
+                        <div class="cat_1">
                             <img src="/photo/所有貓咪/白白.JPG" alt="" style="width: 285px; height: 285px; border-radius: 9px; margin-top: 8px;">
                             <p>選我</p>
                             <div class="cat_2">
-                                <div class="cat_2_1"></div>
-                                <div class="cat_2_2">
+                                <div class="cat_2_1 "></div>
+                                <div class="cat_2_2 ">
                                     <h3>白白</h3>
                                     <div class="le"></div>
                                     <h6>1歲｜男</h6>
@@ -1073,4 +1313,5 @@
         </div>
     </footer>
 </body>
+<script type="module" src = "./_js/selection.js"></script>
 </html>

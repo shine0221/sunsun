@@ -342,6 +342,15 @@ p {
     border-radius: 2px;
 }
 
+.l{
+    background-image: url("/photo/箭頭.png");
+    transform:rotate(180deg);
+}
+
+.r{
+    background-image: url("/photo/箭頭.png");
+}
+
 .first_6{
     margin: 50px auto 0px auto;
     width: 100%;
@@ -363,19 +372,8 @@ p {
 
 .first_10{
     width: 72%;
-    margin: 20px auto 0px auto;
+    margin: 20px auto;
     color: transparent;
-}
-
-.first_10 h2{
-    margin-top: -50px;
-    padding-left: 5px;
-    text-align: center;
-    margin-left: 20px;
-    background-color: white;
-    width: 40%;
-    border-radius: 50px;
-    z-index: 1;
 }
 
 .first_101, .first_102, .first_103, .first_104, .first_105, .first_106, .first_107, .first_108, .first_109, .first_1010, .first_1011, .first_1012, .first_1013, .first_1014, .first_1015, .first_1016, .first_1017, .first_1018, .first_1019, .first_1020{
@@ -383,15 +381,12 @@ p {
     width: 30%;
     border-radius: 20px;
     margin: 8px 18px auto;
-    cursor: pointer;
+    position: relative;
+    opacity: 0.7;
 }
 
 .first_101:hover, .first_102:hover, .first_103:hover, .first_104:hover, .first_105:hover, .first_106:hover, .first_107:hover, .first_108:hover, .first_109:hover, .first_1010:hover, .first_1011:hover, .first_1012:hover, .first_1013:hover, .first_1014:hover, .first_1015:hover, .first_1016:hover, .first_1017:hover, .first_1018:hover, .first_1019:hover, .first_1020:hover{
-    color: black;
-}
-
-.first_101 img:hover, .first_102 img:hover, .first_103 img:hover, .first_104 img:hover, .first_105 img:hover, .first_106 img:hover, .first_107 img:hover, .first_108 img:hover, .first_109 img:hover, .first_1010 img:hover, .first_1011 img:hover, .first_1012 img:hover, .first_1013 img:hover, .first_1014 img:hover, .first_1015 img:hover, .first_1016 img:hover, .first_1017 img:hover, .first_1018 img:hover, .first_1019 img:hover, .first_1020 img:hover{
-    opacity: 0.2;
+    opacity: 1;
 }
 
 .comic_1, .comic_2, .comic_3, .comic_4, .comic_5, .comic_6, .comic_7, .comic_8, .comic_9, .comic_10, .comic_11, .comic_12, .comic_13, .comic_14, .comic_15, .comic_16, .comic_17, .comic_18, .comic_19, .comic_20{
@@ -400,32 +395,31 @@ p {
     margin-right: 35px;
 }
 
-dialog{
-    border: none;
-    box-shadow: 0 2px 6px #ccc;
-    border-radius: 10px;
+.c_1:hover{
+    opacity: 1;
 }
 
-.x{
-    float: right;
+.c_1{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 152px;
+    border: transparent !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #222222;
+    height: 45px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    z-index: 99;
+    opacity: 0.5;
     cursor: pointer;
-}
-
-.left{
-    float: left;
-    width: 50px;
-    margin-top: 40%;
-    cursor: pointer;
-}
-.center{
-    float: left;
-    margin-left: 50px;
-}
-.right{
-    float: right;
-    width: 50px;
-    margin-top: 40%;
-    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .volunteers_hj{
@@ -674,7 +668,7 @@ dialog{
     color: #222222;
 }
 
-.choose p{
+#c1p, #c2p, #c3p, #c4p, #c5p, #c6p, #c7p, #c8p{
     display: inline;
     background: #FFFFFF;
     border: 2px solid #FE9154;
@@ -690,7 +684,7 @@ dialog{
     cursor: pointer;
 }
 
-.choose p:hover{
+#c1p:hover, #c2p:hover, #c3p:hover, #c4p:hover, #c5p:hover, #c6p:hover, #c7p:hover, #c8p:hover{
     background: #FE9154;
     color: #FFFFFF;
     font-weight: 700;
