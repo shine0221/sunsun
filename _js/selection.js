@@ -17,8 +17,7 @@ const catConditions = {
   15: [true, false, false, true, false, true, false, true],//大叔
   16: [true, false, false, true, true, true, false, true],//小豹貓
   17: [false, true, false, true, false, true, true, false],//康茉莉
-  18: [false, true, false, true, false, false, false, false],//開門媽媽?
-  19: [false, true, false, true, false, true, false, true],//夏小花
+  18: [false, true, false, true, false, true, false, true],//夏小花
 };
 
 const conditionNow = [false, false, false, false, false, false, false, false];
