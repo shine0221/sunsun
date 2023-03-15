@@ -339,6 +339,30 @@ $(document).ready(function(){
         $(".cooperation").css('display', 'none');
     });
 
+    $(".duce_0").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'none');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'block');
+        $(".wait").css('display', 'block');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t3.style.color = "#222222";
+        t3.style.borderBottom = "3px solid #222222";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+    });
+
     var a1 = document.querySelector('.a');
     var b1 = document.querySelector('.b');
     var c1 = document.querySelector('.c');
