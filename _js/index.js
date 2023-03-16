@@ -25,6 +25,12 @@ $(document).ready(function(){
         t3.style.borderBottom = "3px solid transparent";
         t4.style.color = "#656565";
         t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".first_2").click(function(){
         $(".first").css('display', 'none');
@@ -52,6 +58,12 @@ $(document).ready(function(){
         t1.style.borderBottom = "3px solid transparent";
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     var t1 = document.querySelector('.home_click');
@@ -83,6 +95,12 @@ $(document).ready(function(){
         ac.style.borderBottom = "3px solid transparent";
         vc.style.color = "#656565";
         vc.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $(".adopt_click").click(function(){
@@ -111,6 +129,12 @@ $(document).ready(function(){
         t1.style.borderBottom = "3px solid transparent";
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $(".volunteers_click").click(function(){
@@ -139,6 +163,12 @@ $(document).ready(function(){
         t3.style.borderBottom = "3px solid transparent";
         t4.style.color = "#656565";
         t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $(".Question_click").click(function(){
@@ -165,6 +195,12 @@ $(document).ready(function(){
         t6.style.borderBottom = "3px solid transparent";
         t7.style.color = "#656565";
         t7.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $(".home_click").click(function(){
@@ -189,6 +225,12 @@ $(document).ready(function(){
         t3.style.borderBottom = "3px solid transparent";
         t4.style.color = "#656565";
         t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".join_click").click(function(){
         $(".first").css('display', 'none');
@@ -212,6 +254,12 @@ $(document).ready(function(){
         t3.style.borderBottom = "3px solid transparent";
         t4.style.color = "#656565";
         t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".wait_click").click(function(){
         $(".first").css('display', 'none');
@@ -235,6 +283,12 @@ $(document).ready(function(){
         t1.style.borderBottom = "3px solid transparent";
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".support_click").click(function(){
         $(".first").css('display', 'none');
@@ -258,6 +312,12 @@ $(document).ready(function(){
         t1.style.borderBottom = "3px solid transparent";
         t2.style.color = "#656565";
         t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".question_click").click(function(){
         $(".first").css('display', 'none');
@@ -279,6 +339,12 @@ $(document).ready(function(){
         t6.style.borderBottom = "3px solid transparent";
         t7.style.color = "#656565";
         t7.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".contact_click").click(function(){
         $(".first").css('display', 'none');
@@ -300,6 +366,12 @@ $(document).ready(function(){
         t5.style.borderBottom = "3px solid transparent";
         t7.style.color = "#656565";
         t7.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
     $(".cooperation_click").click(function(){
         $(".first").css('display', 'none');
@@ -321,6 +393,12 @@ $(document).ready(function(){
         t6.style.borderBottom = "3px solid transparent";
         t5.style.color = "#656565";
         t5.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct1").click(function(){
@@ -356,6 +434,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct2").click(function(){
@@ -391,6 +475,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct3").click(function(){
@@ -426,6 +516,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct4").click(function(){
@@ -461,6 +557,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct5").click(function(){
@@ -496,6 +598,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct6").click(function(){
@@ -531,6 +639,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct7").click(function(){
@@ -566,6 +680,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct8").click(function(){
@@ -601,6 +721,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct9").click(function(){
@@ -636,6 +762,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct10").click(function(){
@@ -671,6 +803,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct11").click(function(){
@@ -706,6 +844,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct12").click(function(){
@@ -741,6 +885,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct13").click(function(){
@@ -776,6 +926,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct14").click(function(){
@@ -811,6 +967,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct15").click(function(){
@@ -846,6 +1008,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct16").click(function(){
@@ -881,6 +1049,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct17").click(function(){
@@ -916,6 +1090,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct18").click(function(){
@@ -951,6 +1131,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $("#ct19").click(function(){
@@ -986,6 +1172,12 @@ $(document).ready(function(){
         $(".question").css('display', 'none');
         $(".contact").css('display', 'none');
         $(".cooperation").css('display', 'none');
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
     });
 
     $(".duce_0").click(function(){
