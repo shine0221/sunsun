@@ -1255,12 +1255,14 @@ $(document).ready(function(){
     var q3 = document.querySelector('.Q_3_ans p');
     var q4 = document.querySelector('.Q_4_ans p');
     var q5 = document.querySelector('.Q_5_ans p');
+    var q6 = document.querySelector('.Q_6_ans p');
 
     var qq1 = document.querySelector('.Q_1_ans');
     var qq2 = document.querySelector('.Q_2_ans');
     var qq3 = document.querySelector('.Q_3_ans');
     var qq4 = document.querySelector('.Q_4_ans');
     var qq5 = document.querySelector('.Q_5_ans');
+    var qq6 = document.querySelector('.Q_6_ans');
 
     $('.Q_1').click(function(){
         $('.Q_1_wer').toggle();
@@ -1340,6 +1342,22 @@ $(document).ready(function(){
         qq5.style.backgroundColor = "#FFFFFF";
         $(".Q_5").css('display', 'block');
         $(".Q_55").css('display', 'none');
+    });
+
+    $('.Q_6').click(function(){
+        $('.Q_6_wer').toggle();
+        q6.style.color = "#FFFFFF";
+        qq6.style.backgroundColor = "#FE9154";
+        $(".Q_66").css('display', 'block');
+        $(".Q_6").css('display', 'none');
+    });
+
+    $('.Q_66').click(function(){
+        $('.Q_6_wer').toggle();
+        q6.style.color = "rgba(34, 34, 34, 0.8)";
+        qq6.style.backgroundColor = "#FFFFFF";
+        $(".Q_6").css('display', 'block');
+        $(".Q_66").css('display', 'none');
     });
 
     $(window).scroll(function () {
