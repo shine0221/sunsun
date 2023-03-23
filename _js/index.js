@@ -1204,50 +1204,51 @@ $(document).ready(function(){
         t2.style.borderBottom = "3px solid transparent";
     });
 
-    var a1 = document.querySelector('.a');
-    var b1 = document.querySelector('.b');
-    var c1 = document.querySelector('.c');
-    var d1 = document.querySelector('.d');
+    var a1 = document.getElementById('vp1');
+    var b1 = document.getElementById('vp2');
+    var c1 = document.getElementById('vp3');
+    var d1 = document.getElementById('vp4');
 
     $(".a").click(function(){
         $(".join_4").css('display', 'block');
         $(".join_5").css('display', 'none');
         $(".join_6").css('display', 'none');
         $(".join_7").css('display', 'none');
-        a1.style.color = "#ff8c00";
-        b1.style.color = "transparent";
-        c1.style.color = "transparent";
-        d1.style.color = "transparent";
+        a1.src = "/photo/排班志工\(Hover\).png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
     });
     $(".b").click(function(){
         $(".join_4").css('display', 'none');
         $(".join_5").css('display', 'block');
         $(".join_6").css('display', 'none');
         $(".join_7").css('display', 'none');
-        b1.style.color = "#ff8c00";
-        a1.style.color = "transparent";
-        c1.style.color = "transparent";
-        d1.style.color = "transparent";
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工\(Hover\).png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
     });
     $(".c").click(function(){
         $(".join_4").css('display', 'none');
         $(".join_5").css('display', 'none');
         $(".join_6").css('display', 'block');
         $(".join_7").css('display', 'none');
-        c1.style.color = "#ff8c00";
-        b1.style.color = "transparent";
-        a1.style.color = "transparent";
-        d1.style.color = "transparent";
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工\(Hover\).png";
+        d1.src = "/photo/接送志工.png";
+    
     });
     $(".d").click(function(){
         $(".join_4").css('display', 'none');
         $(".join_5").css('display', 'none');
         $(".join_6").css('display', 'none');
         $(".join_7").css('display', 'block');
-        d1.style.color = "#ff8c00";
-        b1.style.color = "transparent";
-        c1.style.color = "transparent";
-        a1.style.color = "transparent";
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工\(Hover\).png";
     });
 
     var q1 = document.querySelector('.Q_1_ans p');
