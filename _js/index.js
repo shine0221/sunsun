@@ -1448,70 +1448,35 @@ $(document).ready(function(){
         index8 = index8 >= colors1.length - 1 ? 0 : index8 + 1;
     });
 
+    var in1 = document.getElementById("pic_1");
+    var in2 = document.getElementById("pic_2");
+    var in3 = document.getElementById("pic_3");
 
-      /*var how1 = document.querySelector('#how1');
-      var how11 = document.querySelector('#how11');
-      var how2 = document.querySelector('#how2');
-      var how22 = document.querySelector('#how22');
-      var how3 = document.querySelector('#how3');
-      var how33 = document.querySelector('#how33');
-      var how4 = document.querySelector('#how4');
-      var how44 = document.querySelector('#how44');
-      var how5 = document.querySelector('#how5');
-      var how55 = document.querySelector('#how55');
-  
-      var mation1 = document.querySelector('#mation1');
-      var mation11 = document.querySelector('#mation11');
-      var mation2 = document.querySelector('#mation2');
-      var mation22 = document.querySelector('#mation22');
-      var mation3 = document.querySelector('#mation3');
-      var mation33 = document.querySelector('#mation33');
-      var mation4 = document.querySelector('#mation4');
-      var mation44 = document.querySelector('#mation44');
-  
-      function to(toEl){
-          let bridge = toEl;
-          let body = document.body;
-          let height = 0;
-  
-          do{
-              height += bridge.offsetTop;
-              bridge = bridge.offsetParent;
-          }while (bridge !== body)
-  
-          window.scrollTo({
-              top: height,
-              behavior: 'smooth'
-          })
-      }
-  
-      how11.addEventListener('click', function(){
-          to(how1)
-      });
-      how22.addEventListener('click', function(){
-          to(how2)
-      });
-      how33.addEventListener('click', function(){
-          to(how3)
-      });
-      how44.addEventListener('click', function(){
-          to(how4)
-      });
-      how55.addEventListener('click', function(){
-          to(how5)
-      });
-      mation11.addEventListener('click', function(){
-          to(mation1)
-      });
-      mation22.addEventListener('click', function(){
-          to(mation2)
-      });
-      mation33.addEventListener('click', function(){
-          to(mation3)
-      });
-      mation44.addEventListener('click', function(){
-          to(mation4)
-      });*/
+    $(".in_1").click(function(){
+        $(".infor_yt").toggle();
+        $(".infor_fb").css('display', 'none');
+        $(".infor_ig").css('display', 'none');
+        in1.src = "/photo/YouTube(Hover).png";
+        in2.src = "/photo/fb.png";
+        in3.src = "/photo/ig.png";
+
+    });
+    $(".in_2").click(function(){
+        $(".infor_fb").toggle();
+        $(".infor_yt").css('display', 'none');
+        $(".infor_ig").css('display', 'none');
+        in1.src = "/photo/yt.png";
+        in2.src = "/photo/Facebook(Hover).png";
+        in3.src = "/photo/ig.png";
+    });
+    $(".in_3").click(function(){
+        $(".infor_ig").toggle();
+        $(".infor_fb").css('display', 'none');
+        $(".infor_yt").css('display', 'none');
+        in1.src = "/photo/yt.png";
+        in2.src = "/photo/fb.png";
+        in3.src = "/photo/Instagram(Hover).png";
+    });
 });
 
 x=1;
