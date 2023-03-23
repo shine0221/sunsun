@@ -1495,7 +1495,6 @@ p {
     line-height: 24px;
     letter-spacing: 0.2em;
     color: #222222;
-    cursor: pointer;
 }
 
 .footer_112 p{
@@ -1523,7 +1522,6 @@ p {
     line-height: 24px;
     letter-spacing: 0.2em;
     color: #222222;
-    cursor: pointer;
 }
 
 .footer_12 p{
@@ -1552,6 +1550,10 @@ p {
     line-height: 24px;
     letter-spacing: 0.2em;
     color: #222222;
+}
+
+.wc:hover, .sc:hover, .hc:hover, .jc:hover{
+    color: #000;
 }
 
 .footer_2{

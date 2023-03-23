@@ -401,6 +401,123 @@ $(document).ready(function(){
           );
     });
 
+    $(".hc").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
+    });
+    $(".jc").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'block');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#222222";
+        t2.style.borderBottom = "3px solid #222222";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
+    });
+    $(".wc").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'none');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'block');
+        $(".wait").css('display', 'block');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t3.style.color = "#222222";
+        t3.style.borderBottom = "3px solid #222222";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
+    });
+    $(".sc").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'none');
+        $(".home").css('display', 'none');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'block');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'block');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#222222";
+        t4.style.borderBottom = "3px solid #222222";
+        t1.style.color = "#656565";
+        t1.style.borderBottom = "3px solid transparent";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+          );
+    });
+
     $("#ct1").click(function(){
         $(".first").css('display', 'none');
         $(".titleee").css('display', 'none');
