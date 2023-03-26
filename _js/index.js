@@ -1517,9 +1517,20 @@ $(document).ready(function(){
     const colors1 = ['#FFFFFF', '#FE9154'];
     const colors2 = ['#FE9154', '#FFFFFF'];
 
+    const colors3 = ['#AAAAAA', '#FE9154'];
+    const colors4 = ['#DDDDDD', '#FFFFFF'];
+
+    const cur = ['default', 'pointer'];
+
     $('#c1p').click(function(){
         cat1.style.color = colors1[index];
         cat1.style.backgroundColor = colors2[index];
+
+        cat2.style.color = colors3[index];
+        cat2.style.borderColor = colors3[index];
+        cat2.style.backgroundColor = colors4[index];
+
+        cat2.style.cursor = cur[index];
 
         index = index >= colors1.length - 1 ? 0 : index + 1;
     });
@@ -1527,11 +1538,23 @@ $(document).ready(function(){
         cat2.style.color = colors1[index2];
         cat2.style.backgroundColor = colors2[index2];
 
+        cat1.style.color = colors3[index2];
+        cat1.style.borderColor = colors3[index2];
+        cat1.style.backgroundColor = colors4[index2];
+
+        cat1.style.cursor = cur[index2];
+
         index2 = index2 >= colors1.length - 1 ? 0 : index2 + 1;
     });
     $('#c3p').click(function(){
         cat3.style.color = colors1[index3];
         cat3.style.backgroundColor = colors2[index3];
+
+        cat4.style.color = colors3[index3];
+        cat4.style.borderColor = colors3[index3];
+        cat4.style.backgroundColor = colors4[index3];
+
+        cat4.style.cursor = cur[index3];
 
         index3 = index3 >= colors1.length - 1 ? 0 : index3 + 1;
     });
@@ -1539,11 +1562,23 @@ $(document).ready(function(){
         cat4.style.color = colors1[index4];
         cat4.style.backgroundColor = colors2[index4];
 
+        cat3.style.color = colors3[index4];
+        cat3.style.borderColor = colors3[index4];
+        cat3.style.backgroundColor = colors4[index4];
+
+        cat3.style.cursor = cur[index4];
+
         index4 = index4 >= colors1.length - 1 ? 0 : index4 + 1;
     });
     $('#c5p').click(function(){
         cat5.style.color = colors1[index5];
         cat5.style.backgroundColor = colors2[index5];
+
+        cat6.style.color = colors3[index5];
+        cat6.style.borderColor = colors3[index5];
+        cat6.style.backgroundColor = colors4[index5];
+
+        cat6.style.cursor = cur[index5];
 
         index5 = index5 >= colors1.length - 1 ? 0 : index5 + 1;
     });
@@ -1551,17 +1586,35 @@ $(document).ready(function(){
         cat6.style.color = colors1[index6];
         cat6.style.backgroundColor = colors2[index6];
 
+        cat5.style.color = colors3[index6];
+        cat5.style.borderColor = colors3[index6];
+        cat5.style.backgroundColor = colors4[index6];
+
+        cat5.style.cursor = cur[index6];
+
         index6 = index6 >= colors1.length - 1 ? 0 : index6 + 1;
     });
     $('#c7p').click(function(){
         cat7.style.color = colors1[index7];
         cat7.style.backgroundColor = colors2[index7];
 
+        cat8.style.color = colors3[index7];
+        cat8.style.borderColor = colors3[index7];
+        cat8.style.backgroundColor = colors4[index7];
+
+        cat8.style.cursor = cur[index7];
+
         index7 = index7 >= colors1.length - 1 ? 0 : index7 + 1;
     });
     $('#c8p').click(function(){
         cat8.style.color = colors1[index8];
         cat8.style.backgroundColor = colors2[index8];
+
+        cat7.style.color = colors3[index8];
+        cat7.style.borderColor = colors3[index8];
+        cat7.style.backgroundColor = colors4[index8];
+
+        cat7.style.cursor = cur[index8];
 
         index8 = index8 >= colors1.length - 1 ? 0 : index8 + 1;
     });

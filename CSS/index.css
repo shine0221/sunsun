@@ -663,8 +663,6 @@ p {
 }
 
 #c1p:hover, #c2p:hover, #c3p:hover, #c4p:hover, #c5p:hover, #c6p:hover, #c7p:hover, #c8p:hover{
-    background: #FE9154;
-    color: #FFFFFF;
     font-weight: 700;
 }
 
