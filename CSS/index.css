@@ -898,6 +898,7 @@ p {
 
 .duce_8{
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 .photograph{
@@ -912,7 +913,6 @@ p {
 .photograph img{
     width: 100%;
     border-radius: 12px;
-    cursor: pointer;
 }
 
 .sppp{
