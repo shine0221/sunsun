@@ -116,6 +116,11 @@
         color: #222222;
     }
     
+    #Layer_1, #Capa_1{
+        width: 112px;
+        height: 112px;
+    }
+    
     .adopt_click, .volunteers_click{
         border-bottom: 3px solid transparent;
         color: #656565;
@@ -188,6 +193,7 @@
         padding-top: 320px;
         margin-left: -5%;
         height: 100%;
+        width: 110%;
     }
     
     .first_0{
@@ -233,6 +239,12 @@
         height: 391px;
         background-color: #FECD67;
         padding-top: 11px;
+    }
+    
+    .f00001 img, .f00004 img{
+        border-radius: 20px;
+        width: 95%;
+        height: 97%;
     }
     
     .f00002{
@@ -629,7 +641,7 @@
         height: 1500px;
         width: 90%;
         padding-top: 50px;
-        margin: 0px auto auto 130px;
+        margin: 0px auto;
         background: #F5F5F5;
     }
     
@@ -664,13 +676,11 @@
     }
     
     #c1p:hover, #c2p:hover, #c3p:hover, #c4p:hover, #c5p:hover, #c6p:hover, #c7p:hover, #c8p:hover{
-        background: #FE9154;
-        color: #FFFFFF;
         font-weight: 700;
     }
     
     .cat{
-        width: 980px;
+        width: 70%;
         height: 1000px;
         margin: 10px 0 0 50px;
         border-radius:20px;
@@ -901,6 +911,7 @@
     
     .duce_8{
         margin-left: 40px;
+        margin-top: 20px;
     }
     
     .photograph{
@@ -915,7 +926,6 @@
     .photograph img{
         width: 100%;
         border-radius: 12px;
-        cursor: pointer;
     }
     
     .sppp{
