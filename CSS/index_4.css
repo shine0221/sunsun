@@ -374,7 +374,7 @@
     .catttt{
         background-color: #F6F1E3;
         position: relative;
-        height: 2600px;
+        height: 3500px;
         margin-top: 80px;
     }
     
@@ -385,16 +385,16 @@
     }
     
     .first_10{
-        width: 72%;
+        width: 100%;
         margin: 20px auto;
         color: transparent;
     }
     
     .first_101, .first_102, .first_103, .first_104, .first_105, .first_106, .first_107, .first_108, .first_109, .first_1010, .first_1011, .first_1012, .first_1013, .first_1014, .first_1015, .first_1016, .first_1017, .first_1018, .first_1019, .first_1020{
         float: left;
-        width: 30%;
+        width: 42.5%;
         border-radius: 20px;
-        margin: 8px 18px auto;
+        margin: 50px 25px auto 25px;
         position: relative;
         opacity: 0.7;
     }
