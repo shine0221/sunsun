@@ -178,7 +178,7 @@
         line-height: 29px;
         letter-spacing: 0.1em;
         color: black;
-        padding-top: 10px;
+        padding-top: 9px;
         width: 250px;
         height: 55px;
         cursor: pointer;
@@ -1655,7 +1655,7 @@
         line-height: 39px;
         letter-spacing: 0.1em;
         color: #222222;
-        margin-top: 18px;
+        margin-top: 16px;
     }
     
     .footer_22 h2{
@@ -1666,7 +1666,7 @@
         line-height: 39px;
         letter-spacing: 0.1em;
         color: #222222;
-        margin-top: 18px;
+        margin-top: 16px;
     }
     
     .footer_21:hover, .footer_22:hover{
