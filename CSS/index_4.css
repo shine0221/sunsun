@@ -661,7 +661,7 @@
     }
     
     .wait_2{
-        height: 1500px;
+        height: auto;
         width: 90%;
         padding-top: 20px;
         margin: 0px auto;
