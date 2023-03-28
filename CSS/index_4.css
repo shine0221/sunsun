@@ -663,13 +663,18 @@
     .wait_2{
         height: 1500px;
         width: 90%;
-        padding-top: 50px;
+        padding-top: 20px;
         margin: 0px auto;
         background: #F5F5F5;
     }
     
     .choose{
-        width: 230px;
+        width: 100%;
+        float: none;
+    }
+
+    .choose_one, .choose_two, .choose_three, .choose_four{
+        width: 100%;
         float: left;
     }
     
@@ -677,23 +682,50 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 35px;
         line-height: 24px;
         color: #222222;
+        float: left;
     }
-    
-    #c1p, #c2p, #c3p, #c4p, #c5p, #c6p, #c7p, #c8p{
+
+    .choose_1, .choose_2, .choose_3, .choose_4{
+        float: left;
+    }
+
+    .choose_11, .choose_22, .choose_33, .choose_44{
+        margin-top: 35px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    #c1p, #c2p, #c3p, #c4p, #c5p, #c6p{
         display: inline;
         background: #FFFFFF;
         border: 2px solid #FE9154;
-        border-radius: 12px;
+        border-radius: 20px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 30px;
         line-height: 24px;
         color: #FE9154;
-        padding: 5px 9px 5px 9px;
+        padding: 10px 85px 10px 85px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    #c7p, #c8p{
+        display: inline;
+        background: #FFFFFF;
+        border: 2px solid #FE9154;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 24px;
+        color: #FE9154;
+        padding: 10px 70px 10px 70px;
         margin-right: 20px;
         cursor: pointer;
     }
@@ -703,17 +735,17 @@
     }
     
     .cat{
-        width: 70%;
-        height: 1000px;
-        margin: 10px 0 0 50px;
+        width: 100%;
+        height: auto;
+        margin: 10px 0 0 5px;
         border-radius:20px;
-        float: left;
-        overflow:auto;
+        float: none;
+        overflow:unset;
     }
     
     .cat_1{
         float: left;
-        width: 300px;
+        width: 280px;
         height: 352px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         background: #FFFFFF;
@@ -726,7 +758,7 @@
     }
     
     .cat_1 img{
-        width: 285px;
+        width: 265px;
         height: 285px;
         border-radius: 9px;
         margin-top: 8px;
@@ -755,7 +787,7 @@
         padding-left: 8px;
         margin-left: 8px;
         width: 285px;
-        opacity: 0;
+        opacity: 1;
         border-radius: 0px 0px 9px 9px;
         transition-duration: 0.5s;
     }
@@ -790,7 +822,7 @@
     
     .cat_2_1{
         position: absolute;
-        width: 285px;
+        width: 265px;
         height: 352px;
         margin-left: -8px;
         margin-top: -152px;
@@ -800,7 +832,7 @@
     
     .cat_2_2{
         position: absolute;
-        width: 285px;
+        width: 265px;
         margin-top: 0px;
         margin-left: -8px;
         padding-left: 8px;
