@@ -517,13 +517,14 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.05em;
         color: #FFFEF9;
         position: absolute;
-        margin-left: -20px;
+        margin-left: -25px;
         margin-top: 12px;
+        width: 50px;
     }
     
     .tip{
