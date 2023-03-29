@@ -1146,20 +1146,46 @@
     .join_3{
         margin: 0px auto;
         padding-top: 40px;
-        width: 80%;
+        width: 100%;
         background-color: #F5F5F5;
     }
     
     .a, .b, .c, .d{
-        width: 120%;
+        width: 300%;
         float:left;
         text-align: center;
         cursor: pointer;
+        margin-left: -50px;
+    }
+
+    .a img, .b img, .c img, .d img{
+        width: 80% !important;
     }
     
     .join_4, .join_5, .join_6, .join_7{
         width: 100%;
         margin: 30px auto 100px 0;
+    }
+
+    .j_1{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .j_1 img{
+        margin-left: 0px !important;
+    }
+
+    .j_11{
+        display: none;
+    }
+
+    .j_111{
+        display: block !important;
+    }
+
+    .j_2{
+        width: 200%;
     }
     
     .j_2 h3{
@@ -1171,16 +1197,20 @@
         letter-spacing: 0.1em;
         color: #222222;
         padding-top: 0px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .j_3{
         width: 14%;
         height: 10px;
         margin-top: -40px;
-        margin-left: 20px;
+        margin-left: 30px;
         background-color: #FECD67;
         border-radius: 10px;
+    }
+
+    .j_4{
+        width: 300%;
     }
     
     .j_4 p{
@@ -1189,9 +1219,9 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 29px;
-        letter-spacing: 0.3em;
+        letter-spacing: 0.2em;
         color: #222222;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .j_5 h3{
@@ -1203,14 +1233,14 @@
         letter-spacing: 0.1em;
         color: #222222;
         padding-top: 0px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .j_6{
         width: 14%;
         height: 10px;
         margin-top: -40px;
-        margin-left: 20px;
+        margin-left: 30px;
         background-color: #FECD67;
         border-radius: 10px;
     }
@@ -1223,7 +1253,7 @@
         line-height: 29px;
         letter-spacing: 0.3em;
         color: #222222;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .Question_qcc{
