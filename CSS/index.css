@@ -94,6 +94,7 @@ p {
     text-align: right;
     left: -10px;
     background: #FFF1C2;
+    z-index: 99;
 }
 
 .hihi_1 p{
@@ -461,6 +462,16 @@ p {
     height: 600px;
 }
 
+.home_1 iframe{
+    float: left;
+    border: 0;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);
+    border-radius: 12px;
+    width: 45%;
+    height: 45%;
+    margin: 0px 19px 38px 19px;
+}
+
 .home_2 h3{
     font-family: 'Inter';
     font-style: normal;
@@ -546,7 +557,7 @@ p {
     box-sizing: border-box;
     background: #FE9154;
     border-radius: 12px;
-    z-index: 99;
+    z-index: 98;
 }
 
 .tip_23{

@@ -1,4 +1,4 @@
-@media(max-width: 1050px){
+@media(max-width: 1180px){
     html{
         width: 100%;
         height: 100%;
@@ -95,6 +95,7 @@
         text-align: right;
         left: -10px;
         background: #FFF1C2;
+        z-index: 99;
     }
     
     .hihi_1 p{
@@ -117,8 +118,8 @@
     }
     
     #Layer_1, #Capa_1{
-        width: 112px;
-        height: 112px;
+        width: 90px;
+        height: 90px;
     }
     
     .adopt_click, .volunteers_click{
@@ -138,7 +139,7 @@
     
     .titleee{
         width: 100%;
-        height: 1000px;
+        height: 750px;
         background-color: #FFF1C2;
         position: relative;
     }
@@ -155,14 +156,15 @@
         position: absolute;
         float: left;
         cursor: pointer;
-        margin-top: 8%;
+        margin-top: 12%;
     }
     
     .first_2{
         position: absolute;
         float: left;
         cursor: pointer;
-        margin-top: 8%;
+        margin-top: 12%;
+        margin-left: -80px;
     }
     
     .first_1 p, .first_2 p{
@@ -173,12 +175,12 @@
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
-        line-height: 29px;
-        letter-spacing: 0.2em;
+        line-height: 22px;
+        letter-spacing: 0.1em;
         color: black;
         padding-top: 15px;
-        width: 250px;
-        height: 64px;
+        width: 230px;
+        height: 55px;
         cursor: pointer;
     }
     
@@ -197,7 +199,7 @@
     }
     
     .first_0{
-        margin-top: 100px;
+        margin-top: -20px;
     }
     
     .first_0_0{
@@ -221,22 +223,22 @@
     
     .first_0000_1{
         height: 400px;
-        margin: 80px auto;
+        margin: -80px auto;
     }
     
     .f0{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     
     .f00001{
         float: left;
         text-align: center;
-        margin-top: 10px;
+        margin-top: -10px;
         margin-left: 5px;
         border-radius: 200px;
-        width: 391px;
-        height: 391px;
+        width: 300px;
+        height: 300px;
         background-color: #FECD67;
         padding-top: 11px;
     }
@@ -253,12 +255,16 @@
         margin-left: 80px;
     }
     
+    .f00002_1, .f00005_1{
+        display: none;
+    }
+    
     .f00002 h1, .f00005 h1{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 48px;
-        line-height: 58px;
+        font-size: 30px;
+        line-height: 20px;
         /* identical to box height */
         letter-spacing: 0.1em;
         color: #222222;
@@ -268,7 +274,7 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 29px;
         letter-spacing: 0.1em;
     
@@ -277,11 +283,11 @@
     
     .f00004{
         float: right;
-        margin-top: 10px;
+        margin-top: -10px;
         margin-right: 5px;
         border-radius: 200px;
-        width: 391px;
-        height: 391px;
+        width: 300px;
+        height: 300px;
         background-color: #FECD67;
         padding-top: 11px;
     }
@@ -345,13 +351,13 @@
     .first_6{
         margin: 50px auto 0px auto;
         width: 100%;
-        height: 720px;
+        height: 360px;
     }
     
     .catttt{
         background-color: #F6F1E3;
         position: relative;
-        height: 2600px;
+        height: 2500px;
         margin-top: 80px;
     }
     
@@ -362,8 +368,8 @@
     }
     
     .first_10{
-        width: 72%;
-        margin: 20px auto;
+        width: 100%;
+        margin: 40px auto;
         color: transparent;
     }
     
@@ -371,7 +377,7 @@
         float: left;
         width: 30%;
         border-radius: 20px;
-        margin: 8px 18px auto;
+        margin: 10px 10px 20px 20px;
         position: relative;
         opacity: 0.7;
     }
@@ -454,8 +460,18 @@
     
     .home_1{
         margin: 40px auto;
-        width: 50%;
+        width: 100%;
         height: 600px;
+    }
+    
+    .home_1 iframe{
+        float: left;
+        border: 0;
+        box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.411);
+        border-radius: 12px;
+        width: 45%;
+        height: 45%;
+        margin: 0px 8px 38px 30px;
     }
     
     .home_2 h3{
@@ -527,7 +543,7 @@
     }
     
     .tip_2{
-        width: 60%;
+        width: 90%;
         height: 50px;
         background-color: white;
         border-radius: 50px;
@@ -543,7 +559,7 @@
         box-sizing: border-box;
         background: #FE9154;
         border-radius: 12px;
-        z-index: 99;
+        z-index: 98;
     }
     
     .tip_23{
@@ -639,14 +655,15 @@
     
     .wait_2{
         height: 1500px;
-        width: 90%;
+        width: 100%;
         padding-top: 50px;
         margin: 0px auto;
         background: #F5F5F5;
     }
     
     .choose{
-        width: 230px;
+        width: 220px;
+        margin-left: 40px;
         float: left;
     }
     
@@ -682,7 +699,7 @@
     .cat{
         width: 70%;
         height: 1000px;
-        margin: 10px 0 0 50px;
+        margin: 10px 0 0 0px;
         border-radius:20px;
         float: left;
         overflow:auto;
@@ -690,8 +707,8 @@
     
     .cat_1{
         float: left;
-        width: 300px;
-        height: 352px;
+        width: 200px;
+        height: 252px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         background: #FFFFFF;
         border-radius: 12px;
@@ -703,8 +720,8 @@
     }
     
     .cat_1 img{
-        width: 285px;
-        height: 285px;
+        width: 185px;
+        height: 185px;
         border-radius: 9px;
         margin-top: 8px;
     }
@@ -726,13 +743,13 @@
     
     .cat_2{
         position: absolute;
-        margin-top: -214px;
+        margin-top: -210px;
         text-align: left;
         z-index: 99;
         padding-left: 8px;
         margin-left: 8px;
-        width: 285px;
-        opacity: 0;
+        width: 185px;
+        opacity: 1;
         border-radius: 0px 0px 9px 9px;
         transition-duration: 0.5s;
     }
@@ -741,7 +758,7 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 39px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -751,7 +768,7 @@
     .le{
         border: 3px solid #FE9154;
         border-radius: 10px;
-        width: 67px;
+        width: 60px;
         margin-bottom: 10px;
     }
     
@@ -767,17 +784,17 @@
     
     .cat_2_1{
         position: absolute;
-        width: 285px;
-        height: 352px;
-        margin-left: -8px;
-        margin-top: -152px;
+        width: 200px;
+        height: 252px;
+        margin-left: -16px;
+        margin-top: -48px;
         padding-bottom: 52px;
-        padding-top: 152px;
+        padding-top: 52px;
     }
     
     .cat_2_2{
         position: absolute;
-        width: 285px;
+        width: 185px;
         margin-top: 0px;
         margin-left: -8px;
         padding-left: 8px;
@@ -817,8 +834,8 @@
     }
     
     .duce_1{
-        width: 417px;
-        height: 417px;
+        width: 280px;
+        height: 280px;
         background: #FECD67;
         border-radius: 24px;
         text-align: center;
@@ -826,10 +843,15 @@
     }
     
     .duce_1 img{
-        width: 391px;
-        height: 391px;
+        width: 90%;
+        height: 90%;
         border-radius: 12px;
-        margin-top: 13px;
+        margin-top: 10px;
+    }
+
+    .duces{
+        margin-top: 5px;
+        margin-left: -60px;
     }
     
     .duce_2 p{
@@ -897,6 +919,10 @@
         letter-spacing: 0.1em;
         color: #222222;
     }
+
+    .duce_6{
+        display: none;
+    }
     
     .duce_6 img{
         width: 110%;
@@ -905,7 +931,7 @@
     }
     
     .duce_7{
-        width: 90%;
+        width: 100%;
         margin: 100px auto;
     }
     
@@ -917,9 +943,9 @@
     .photograph{
         width: 30%;
         margin-top: 10px;
-        margin-right: 15px;
-        margin-bottom: 20px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
         float: left;
     }
     
@@ -934,7 +960,7 @@
     
     .spt{
         height: 800px;
-        width: 80%;
+        width: 100%;
         margin: 40px auto;
     }
     
@@ -959,7 +985,7 @@
         margin-top: -146px;
         text-align: left;
         z-index: 99;
-        opacity: 0;
+        opacity: 1;
         border-radius: 0px 0px 12px 12px;
         transition-duration: 0.5s;
         cursor: pointer;
@@ -1004,7 +1030,7 @@
     
     .spt_2_2{
         position: absolute;
-        width: 366px;
+        width: 282px;
         margin-top: 0px;
         padding-left: 8px;
         border-radius: 0px 0px 12px 12px;
@@ -1216,7 +1242,7 @@
     }
     
     .contact_2{
-        width: 72%;
+        width: 100%;
         height: 800px;
         margin: 0px auto;
     }
@@ -1305,12 +1331,12 @@
     
     .infor_1{
         width: 100%;
-        margin: 80px auto;
+        margin: 40px auto;
         text-align: center;
     }
     
     .infor_yt, .infor_fb_1, .infor_ig_1{
-        width: 60%;
+        width: 70%;
         background: #FE9154;
         border-radius: 21px;
         height: 52px;
@@ -1368,12 +1394,18 @@
     
     .in_4{
         float: left;
-        margin-left: 50px;
+        margin-left: 0px;
+    }
+
+    .in_4 iframe{
+        width: 350px !important;
+        height: 250px !important;
     }
     
     .in_5{
         float: left;
-        margin-left: 50px;
+        margin-top: -20px;
+        margin-left: 30px;
     }
     
     .for_1{
@@ -1482,8 +1514,9 @@
     
     .footer_111{
         width: 300px;
-        margin-left: 60px;
-        margin-top: -10px;
+        margin-right: 60px;
+        margin-left: 0px;
+        margin-top: -50px;
     }
     
     .footer_111 img{
@@ -1492,8 +1525,10 @@
     }
     
     .footer_112{
+        float: left;
         margin-top: 32px;
-        margin-left: 60px;
+        margin-left: 0px;
+        margin-right: 40px;
         font-weight: bolder;
         color: white;
     }
@@ -1521,8 +1556,8 @@
     
     .footer_12{
         float: left;
-        margin-left: -50px;
-        margin-top: 34px;
+        margin-top: 32px;
+        margin-left: 0px;
     }
     
     .footer_12 h3{
@@ -1548,8 +1583,8 @@
     
     .footer_13{
         float: left;
-        margin-top: -152px;
-        margin-left: 570px;
+        margin-top: 0px;
+        margin-left: 00px;
         width: 500px;
     }
     
@@ -1569,8 +1604,8 @@
     
     .footer_2{
         float: right;
-        margin-right: 180px;
-        margin-top: 95px;
+        margin-right: 150px;
+        margin-top: -300px;
     }
     
     .footer_21{
@@ -1621,8 +1656,8 @@
     }
     
     .footer_3{
-        margin-top: 460px;
-        margin-left: 810px;
+        margin: 460px auto;
+        text-align: center;
         font-weight: bolder;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
