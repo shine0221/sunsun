@@ -1368,6 +1368,306 @@ $(document).ready(function(){
         d1.src = "/photo/接送志工\(Hover\).png";
     });
 
+    $("#tp1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'block');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工\(Hover\).png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+    $("#tp1_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'block');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工\(Hover\).png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+
+    $("#tp2").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'block');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工\(Hover\).png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+    $("#tp2_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'block');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工\(Hover\).png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+
+    $("#tp3").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'block');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工\(Hover\).png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+    $("#tp3_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'block');
+        $(".join_7").css('display', 'none');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工\(Hover\).png";
+        d1.src = "/photo/接送志工.png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+
+    $("#tp4").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'block');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工\(Hover\).png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+    $("#tp4_1").click(function(){
+        $(".first").css('display', 'none');
+        $(".titleee").css('display', 'none');
+        $(".volunteers").css('display', 'block');
+        $(".home").css('display', 'block');
+        $(".join").css('display', 'none');
+        $(".adopt").css('display', 'none');
+        $(".wait").css('display', 'none');
+        $(".support").css('display', 'none');
+        $(".introduce").css('display', 'none');
+        $(".Question").css('display', 'none');
+        $(".question").css('display', 'none');
+        $(".contact").css('display', 'none');
+        $(".cooperation").css('display', 'none');
+        t1.style.color = "#222222";
+        t1.style.borderBottom = "3px solid #222222";
+        t2.style.color = "#656565";
+        t2.style.borderBottom = "3px solid transparent";
+        t3.style.color = "#656565";
+        t3.style.borderBottom = "3px solid transparent";
+        t4.style.color = "#656565";
+        t4.style.borderBottom = "3px solid transparent";
+        $(".join_4").css('display', 'none');
+        $(".join_5").css('display', 'none');
+        $(".join_6").css('display', 'none');
+        $(".join_7").css('display', 'block');
+        a1.src = "/photo/排班志工.png";
+        b1.src = "/photo/文書志工.png";
+        c1.src = "/photo/攝影志工.png";
+        d1.src = "/photo/接送志工\(Hover\).png";
+        $("html, body").animate(
+            {
+              scrollTop: 0
+            },
+            500 
+        );
+    });
+
     var q1 = document.querySelector('.Q_1_ans p');
     var q2 = document.querySelector('.Q_2_ans p');
     var q3 = document.querySelector('.Q_3_ans p');
