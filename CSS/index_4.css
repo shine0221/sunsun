@@ -684,6 +684,7 @@
     .choose{
         width: 100%;
         float: none;
+        margin-left: 0px;
     }
 
     .choose_one, .choose_two, .choose_three, .choose_four{
@@ -768,6 +769,7 @@
         margin-bottom: 20px;
         cursor: pointer;
         color: #222222;
+        margin-left: 0px;
     }
     
     .cat_1 img{
@@ -904,6 +906,7 @@
 
     .duces{
         margin-top: 525px;
+        margin-left: 0px;
     }
 
     .duce_2{
