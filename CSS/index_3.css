@@ -367,7 +367,34 @@
     .first_6{
         margin: 50px auto 0px auto;
         width: 100%;
-        height: 360px;
+        height: 400px;
+    }
+
+    .first_6 iframe{
+        height: 65% !important;
+    }
+
+    .first_6_1{
+        position: absolute;
+        top: -100%;
+    }
+    
+    .video{
+        color: rgba(34, 34, 34, 0.7) !important;
+        text-align: left !important;
+        font-size: 15px !important;
+        font-weight: 800 !important;
+        line-height: 20px !important;
+    }
+    
+    .video_1{
+        font-family: 'Inter' !important;
+        font-style: normal !important;
+        font-weight: 800 !important;
+        font-size: 20px !important;
+        line-height: 10px !important;
+        letter-spacing: 0.1em !important;
+        color: #222222 !important;
     }
     
     .catttt{
