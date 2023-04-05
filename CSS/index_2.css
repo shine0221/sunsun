@@ -402,7 +402,7 @@
         border-radius: 20px;
         margin: 10px 10px 20px 20px;
         position: relative;
-        opacity: 0.7;
+        opacity: 0.9;
     }
     
     .first_101:hover, .first_102:hover, .first_103:hover, .first_104:hover, .first_105:hover, .first_106:hover, .first_107:hover, .first_108:hover, .first_109:hover, .first_1010:hover, .first_1011:hover, .first_1012:hover, .first_1013:hover, .first_1014:hover, .first_1015:hover, .first_1016:hover, .first_1017:hover, .first_1018:hover, .first_1019:hover, .first_1020:hover{
@@ -436,10 +436,20 @@
         top: 80%;
         left: 5%;
         z-index: 99;
-        opacity: 0.5;
+        opacity: 1;
         cursor: pointer;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .c_2{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: absolute;
+        top: 82%;
+        left: 85%;
+        z-index: 99;
+        opacity: 0.9;
+        cursor: pointer;
     }
     
     .volunteers_hj{
