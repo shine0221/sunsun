@@ -1,0 +1,12 @@
+body{
+    background-color: #FFF1C2;
+}
+.admin{
+    background-color: #FFF1C2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ad_name, .ad_age, .ad_sex, .ad_close, .ad_status, .ad_photo, .ad_photo_album{
+    text-align: left;
+}

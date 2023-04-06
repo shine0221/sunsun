@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改資料</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/admin.css">
+</head>
+<body>
+    <form action="">
+        <div class="container admin">
+            <h1>新增浪貓資料</h1>
+            <div class="row ad_name">
+                <div class="col na_1">
+                    <p>浪貓名字：</p>
+                </div>
+                <div class="col-11 na_2">
+                    <input name="myfield">
+                </div>
+            </div>
+            <div class="row ad_age">
+                <div class="col ag_1">
+                    <p>浪貓年齡：</p>
+                </div>
+                <div class="col-11 ag_2">
+                    <input name="myfield" placeholder="??歲/??個月">
+                </div>
+            </div>
+            <div class="row ad_sex">
+                <div class="col se_1">
+                    <p>浪貓性別：</p>
+                </div>
+                <div class="col-11 se_2">
+                    <input type="radio" name="sex" value="底迪"> 底迪
+                    <input type="radio" name="sex" value="美眉"> 美眉
+                </div>
+            </div>
+            <div class="row ad_close">
+                <div class="col ce_1">
+                    <p>親近程度：</p>
+                </div>
+                <div class="col-11 ce_2">
+                    <input type="radio" name="close" value="親人"> 親人
+                    <input type="radio" name="close" value="親貓"> 親貓
+                </div>
+            </div>
+            <div class="row ad_status">
+                <div class="col sta_1">
+                    <p>可否認養：</p>
+                </div>
+                <div class="col-11 sta_2">
+                    <input type="radio" name="status" value="可認養"> 可認養
+                    <input type="radio" name="status" value="訓練中"> 訓練中
+                </div>
+            </div>
+            <div class="row ad_photo">
+                <div class="col ph_1">
+                    <p>浪貓照片：</p>
+                </div>
+                <div class="col-11 ph_2">
+                    <input type="file" accept="image/*">
+                </div>
+            </div>
+            <div class="row ad_photo_album">
+                <div class="col al_1">
+                    <p>照片冊：</p>
+                </div>
+                <div class="col-11 al_2">
+                    <input type="file" accept="image/*" multiple>
+                </div>
+            </div>
+            <input type="submit" value="送出">
+        </div>
+    </form>
+    <form action="">
+        <div class="container admin">
+            <h1>認養人新增貓貓</h1>
+            <div class="row ad_name">
+                <div class="col na_1">
+                    <p>貓貓名字：</p>
+                </div>
+                <div class="col-11 na_2">
+                    <input name="myfield">
+                </div>
+            </div>
+            <div class="row ad_sex">
+                <div class="col se_1">
+                    <p>貓貓性別：</p>
+                </div>
+                <div class="col-11 se_2">
+                    <input type="radio" name="sex" value="底迪"> 底迪
+                    <input type="radio" name="sex" value="美眉"> 美眉
+                </div>
+            </div>
+            <div class="row ad_close">
+                <div class="col ce_1">
+                    <p>親近程度：</p>
+                </div>
+                <div class="col-11 ce_2">
+                    <input type="radio" name="close" value="親人"> 親人
+                    <input type="radio" name="close" value="親貓"> 親貓
+                </div>
+            </div>
+            <div class="row ad_status">
+                <div class="col sta_1">
+                    <p>可否認養：</p>
+                </div>
+                <div class="col-11 sta_2">
+                    <input type="radio" name="status" value="可認養"> 可認養
+                    <input type="radio" name="status" value="訓練中"> 訓練中
+                </div>
+            </div>
+            <div class="row ad_photo">
+                <div class="col ph_1">
+                    <p>貓貓照片：</p>
+                </div>
+                <div class="col-11 ph_2">
+                    <input type="file" accept="image/*">
+                </div>
+            </div>
+            <div class="row ad_photo_album">
+                <div class="col al_1">
+                    <p>照片冊：</p>
+                </div>
+                <div class="col-11 al_2">
+                    <input type="file" accept="image/*" multiple>
+                </div>
+            </div>
+            <input type="submit" value="送出">
+        </div>
+    </form>
+</body>
+</html>

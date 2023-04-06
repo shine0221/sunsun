@@ -712,7 +712,7 @@ p {
     color: #222222;
 }
 
-#c1p, #c2p, #c3p, #c4p, #c5p, #c6p, #c7p, #c8p{
+.cat_selection{
     display: inline;
     background: #FFFFFF;
     border: 2px solid #FE9154;
@@ -728,7 +728,19 @@ p {
     cursor: pointer;
 }
 
-#c1p:hover, #c2p:hover, #c3p:hover, #c4p:hover, #c5p:hover, #c6p:hover, #c7p:hover, #c8p:hover{
+.cat_OtherSelected{
+    background: #DDDDDD !important;
+    border: 2px solid #AAAAAA !important;
+    color: #AAAAAA !important;
+
+}
+
+.cat_selected{
+    background: #FE9154 !important;
+    color: #FFFFFF !important;
+}
+
+.cat_selection:hover{
     font-weight: 700;
 }
 
@@ -855,12 +867,6 @@ p {
     background: linear-gradient(180deg, #FFF2C8 14.06%, rgba(255, 242, 200, 0) 100%);
 }
 
-.intro_2, .intro_3, .intro_4, .intro_5, .intro_6, .intro_7, .intro_8, .intro_9, .intro_10, .intro_11, .intro_12, .intro_13, .intro_14, .intro_15, .intro_16, .intro_17, .intro_18, .intro_19{
-    width: 100%;
-    height: 750px;
-    background: linear-gradient(180deg, #FFF2C8 14.06%, rgba(255, 242, 200, 0) 100%);
-    display: none;
-}
 
 .duce_0 img{
     transform: rotate(180deg);
