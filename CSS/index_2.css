@@ -709,7 +709,7 @@
         color: #222222;
     }
     
-    #c1p, #c2p, #c3p, #c4p, #c5p, #c6p, #c7p, #c8p{
+    #sex_boy, #sex_girl, #age_kid, #age_adult, #close_human, #close_cat, #status_accept, #status_training{
         display: inline;
         background: #FFFFFF;
         border: 2px solid #FE9154;
