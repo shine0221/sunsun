@@ -731,11 +731,11 @@
     
     .cat{
         width: 70%;
-        height: 1000px;
+        height: auto;
         margin: 10px 0 0 0px;
         border-radius:20px;
         float: left;
-        overflow:auto;
+        overflow:unset;
     }
     
     .cat_1{
@@ -1522,6 +1522,14 @@
         font-size: 20px;
         line-height: 5px;
         color: #222222;
+    }
+
+    .imgg_1{
+        content: url(/photo/校內外展.png);
+    }
+    
+    .imgg_2{
+        content: url(/photo/陽明高中認養會消息.jpg);
     }
     
     .footer{

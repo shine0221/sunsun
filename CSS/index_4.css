@@ -1627,6 +1627,14 @@
         line-height: 5px;
         color: #222222;
     }
+
+    .imgg_1{
+        content: url(/photo/校內外展.png);
+    }
+    
+    .imgg_2{
+        content: url(/photo/陽明高中認養會消息.jpg);
+    }
     
     .footer{
         height: 390px;

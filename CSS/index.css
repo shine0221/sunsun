@@ -1527,6 +1527,14 @@ p {
     border-top-right-radius: 150px;
 }
 
+.imgg_1{
+    content: url(/photo/新的校內外展.png);
+}
+
+.imgg_2{
+    content: url(/photo/新的陽明高中認養會消息.jpg);
+}
+
 .footer_1{
     float: left;
     width: 800px;
