@@ -1502,7 +1502,7 @@ function showCat(data, sreach) {
 
 
             $('<img>').prop({
-                src: `./cat_backend/${catInfro.photo}`,
+                src: `${catInfro.photo}`,
                 alt: "catPhoto"
             }).appendTo(catDiv)
 
@@ -1570,7 +1570,7 @@ function showCat(data, sreach) {
             console.log(catInfro.photo[1])
 
             $('<img>').prop({
-                src: `./cat_backend/${catInfro.photo}`,
+                src: `${catInfro.photo}`,
                 alt: "catPhoto"
             }).appendTo(catDiv)
 
@@ -1762,7 +1762,7 @@ function showIntro(data) {
             }).appendTo(duce8Div)
 
             $('<img>').prop({
-                src: `./cat_backend/${photolist}`
+                src: `${photolist}`
             }).appendTo(photographDiv)
         }
     })
