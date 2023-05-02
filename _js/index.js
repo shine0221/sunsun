@@ -1089,7 +1089,7 @@ $(document).ready(function () {
             axios({
                 method: 'get',
                 params: selectingCat,
-                url: 'http://127.0.0.1:5000/cat'
+                url: 'https://pinetree.herokuapp.com/cat'
             }).then(response => {
                 console.log(response.data.result)
                 showCat(response.data.result, true)
@@ -1459,7 +1459,7 @@ axios({
         close_type: "",
         age_type: ""
     },
-    url: 'http://127.0.0.1:5000/cat'
+    url: 'https://pinetree.herokuapp.com/cat'
 }).then(response => {
     console.log(response.data.result)
     showCat(response.data.result, false)
