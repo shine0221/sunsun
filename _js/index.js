@@ -1667,7 +1667,7 @@ function showIntro(data) {
         }).appendTo(col5Div)
 
         $('<img>').prop({
-            src: `./cat_backend/${catInfro.photo}`,
+            src: `${catInfro.photo}`,
             alt: "catPhoto"
         }).appendTo(duce1Div)
 
