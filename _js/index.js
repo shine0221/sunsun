@@ -1532,7 +1532,7 @@ function showCat(data, sreach) {
             }).appendTo(catDiv22)
 
             $('<h6>').prop({
-                innerHTML: '已被領養'
+                innerHTML: `${catInfro.adapted_date}'已被領養'`
             }).appendTo(catDiv22)
 
         } else {
