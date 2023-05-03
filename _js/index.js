@@ -1473,33 +1473,7 @@ function showCat(data, sreach) {
             const catDiv = $('<div>').prop({
                 className: 'spt_1',
                 id: `ct${index}`
-            }).click(() => {
-                console.log(123)
-                $(".first").css('display', 'none');
-                $(".titleee").css('display', 'none');
-                $(".volunteers").css('display', 'none');
-                $(".home").css('display', 'none');
-                $(".join").css('display', 'none');
-                $(".adopt").css('display', 'none');
-                $(".wait").css('display', 'none');
-                $(".support").css('display', 'none');
-                $(".introduce").css('display', 'block');
-                for (let catCount in data) {
-                    $(`.intro_${catCount}`).css('display', 'none');
-                }
-                $(`.intro_${index}`).css('display', 'block');
-                $(".Question").css('display', 'none');
-                $(".question").css('display', 'none');
-                $(".contact").css('display', 'none');
-                $(".cooperation").css('display', 'none');
-                $("html, body").animate(
-                    {
-                        scrollTop: 0
-                    },
-                    500
-                );
             }).appendTo($('.sppp'))
-
 
             $('<img>').prop({
                 src: `${catInfro.photo}`,
