@@ -1093,6 +1093,7 @@ $(document).ready(function () {
             }).then(response => {
                 console.log(response.data.result)
                 showCat(response.data.result, true)
+                showIntro(response.data.result)
             })
         })
     }
@@ -1584,6 +1585,7 @@ function showCat(data, sreach) {
 
 
 function showIntro(data) {
+    $('.introduce').empty()
     data.forEach((catInfro, index) => {
         const introDiv = $('<div>').prop({
             className: 'intro_1',
